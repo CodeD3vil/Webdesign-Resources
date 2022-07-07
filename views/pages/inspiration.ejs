@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Design | Inspiration</title>
+        <%- include('../partials/head.ejs') %>
+    </head>
+    <body>
+        <main>
+            <!-- HEADER start -->
+            <%- include('../partials/header.ejs') %>
+            <!-- HEADER end-->
+
+            <!-- INSPIRATION WELCOME begin-->
+            <section class="inspiration__welcome section grid-2-col" id="inspiration">
+                <div class="inspiration__welcome-left">
+                    <h1 class="inspiration__welcome__title">
+                        Finding <span class="inspiration__welcome__title-name">inspiration</span> just got a little
+                        easier
+                    </h1>
+                    <h2 class="inspiration__welcome__subtitle">
+                        Finding inspiration for your next project can be challenging at times but there are many free
+                        resources out there that can help you find the right one to get inspired. This is also another
+                        way to learn and speed up your design process.
+                    </h2>
+                </div>
+                <div class="inspiration__welcome-right">
+                    <img src="../public/img/artist.svg" alt="forms image" class="inspiration__welcome__img" />
+                </div>
+            </section>
+            <!-- INSPIRATION WELCOME end-->
+            <!-- DESIGN begin-->
+            <section class="resources section" id="design">
+                <h2 class="resources__title">Design</h2>
+                <h3 class="resources__subtitle">
+                    When you are starting a new project use these website to create a mood board or simply get inspired
+                    by what others have created and shared with the world.
+                </h3>
+                <div class="resources__cards cards grid"><%- include('../partials/cards/inspiration/design.ejs')%></div>
+            </section>
+            <!-- DESIGN end-->
+
+            <!-- WEBSITES begin-->
+            <section class="resources section" id="websites">
+                <h2 class="resources__title">Websites</h2>
+                <h3 class="resources__subtitle">
+                    The links below will lead to sites where you can find new ideas by looking at complete websites made
+                    by other designers like you.
+                </h3>
+                <div class="resources__cards cards grid">
+                    <%- include('../partials/cards/inspiration/websites.ejs')%>
+                </div>
+            </section>
+            <!-- WEBSITES end-->
+
+            <!-- MOCKUPS begin-->
+            <section class="resources section" id="mockups">
+                <h2 class="resources__title">Mockups</h2>
+                <h3 class="resources__subtitle">
+                    Mockups can be not only used to present a design or a product but they can serve as an inspiraton
+                    for your own projectss. There are literally tons of them out there.
+                </h3>
+                <div class="resources__cards cards grid">
+                    <%- include('../partials/cards/inspiration/mockups.ejs')%>
+                </div>
+            </section>
+            <!-- MOCKUPS end-->
+        </main>
+
+        <!-- FOOTER start-->
+        <div id="footer"><%- include('../partials/footer.ejs') %></div>
+        <!-- FOOTER end-->
+    </body>
+</html>

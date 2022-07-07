@@ -1,0 +1,42 @@
+@use "../colors";
+@use "../typography";
+@use "../mixins";
+
+//title, subtitle, name, email, button, lightblue top
+.card-1 {
+    &__title {
+        padding-left: 0.1rem;
+    }
+
+    &__subtitle {
+        padding: 1.4em;
+        color: colors.$color-blue-grey;
+        min-height: 80px;
+    }
+
+    &__name,
+    &__email {
+        padding-left: 1.4em;
+    }
+
+    &__email {
+        padding-bottom: 1rem;
+    }
+
+    &__button-area {
+        @include mixins.flexCenter(column);
+        &::after {
+            position: absolute;
+            content: "";
+            left: 5%;
+            bottom: 24%;
+            height: 1px;
+            width: 89%;
+            background-color: colors.$card-underline-color;
+        }
+    }
+
+    &__button {
+        width: 90%;
+    }
+}

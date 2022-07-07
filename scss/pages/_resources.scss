@@ -1,0 +1,57 @@
+@use "../mixins";
+@use "../colors";
+@use "../typography";
+
+//FORMS WELCOME SECTIOM
+.resources__welcome {
+    min-height: 65vh;
+    @include mixins.flexCenter(column);
+
+    &-left {
+        @include mixins.flexCenter(column);
+        @include mixins.welcomeLeft;
+    }
+
+    &__title-name {
+        color: colors.$color-light-blue;
+    }
+
+    &__subtitle {
+        @include mixins.welcomeSubtitle;
+    }
+
+    &-right {
+        @include mixins.flexCenter(column);
+    }
+
+    &__img {
+        margin-top: 3rem;
+        width: 79%;
+    }
+}
+
+//FORMS SECTION
+.resources {
+    @include mixins.sections;
+
+    &__title {
+        @include mixins.sectionTitle;
+    }
+
+    &__subtitle {
+        @include mixins.sectionSubtitle;
+    }
+}
+
+//POLICIES SECTION
+.policies {
+    @include mixins.sections;
+
+    &__title {
+        @include mixins.sectionTitle;
+    }
+
+    &__subtitle {
+        @include mixins.sectionSubtitle;
+    }
+}

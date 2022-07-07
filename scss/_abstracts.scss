@@ -1,0 +1,38 @@
+@use "colors";
+
+//SCROLLBAR
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: colors.$color-scrollbar-thumb;
+
+    &:hover {
+        background: colors.$color-scrollbar-thumb-hover;
+    }
+}
+
+//FEEDBACK link
+.feedback {
+    margin: 0 auto;
+    padding: 5rem 5rem 0 9rem;
+
+    &__text {
+        font-size: clamp(0.3rem, 2vw, 0.8rem);
+        color: colors.$color-grey-medium;
+    }
+}
+
+//FOOTER wave
+.footer {
+    &__wave {
+        margin-top: 2rem;
+        height: 10vh;
+        fill: colors.$color-dark-blue;
+    }
+}

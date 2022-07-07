@@ -1,0 +1,29 @@
+@use "../colors";
+@use "../base";
+@use "../mixins";
+
+@media (max-width: base.$mobile-break) {
+    .resources {
+        &__welcome {
+            @include mixins.welcomeResponsive;
+
+            &-left {
+                padding: 3rem 0 0 0;
+            }
+
+            &__subtitle {
+                width: 100%;
+                padding-bottom: 0;
+                padding-top: 1rem;
+            }
+
+            &__img {
+                display: none;
+            }
+        }
+    }
+
+    .resources {
+        padding: 0 2rem 1rem 2rem;
+    }
+}

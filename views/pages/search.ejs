@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Design | Search</title>
+        <script src="../public/js/search.js" defer></script>
+        <%- include('../partials/head.ejs') %>
+    </head>
+    <body>
+        <main>
+            <!-- HEADER start -->
+            <%- include('../partials/header.ejs') %>
+            <!-- HEADER end-->
+
+            <!-- SEARCH SECTION start -->
+            <section class="search section" id="search">
+                <!-- SEARCH BAR start -->
+                <div class="search-bg">
+                    <div class="search__bar">
+                        <div class="search__bar-element">
+                            <input
+                                autofocus
+                                type="text"
+                                class="search__bar-term"
+                                id="search_bar"
+                                onkeyup="searchLinks()"
+                                placeholder="What are you looking for?"
+                            />
+                            <img src="../public/img/search.svg" alt="search icon" class="search__bar-element--icon" />
+                        </div>
+                    </div>
+                </div>
+                <!-- SEARCH BAR end -->
+
+                <!-- SEARCH RESULTS start -->
+                <div id="search__results" class="search__results">
+                    <%- include('../partials/searchLinks.ejs') %>
+                    <div class="toTop">
+                        <a href="#" class="toTop--link"
+                            ><img class="toTop--link-icon" src="../../public/img/arrow.svg" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <!-- SEARCH RESULTS end -->
+            </section>
+            <!-- SEARCH SECTION end-->
+        </main>
+
+        <!-- FOOTER start-->
+        <div id="footer"><%- include('../partials/footer.ejs') %></div>
+        <!-- FOOTER end-->
+    </body>
+</html>

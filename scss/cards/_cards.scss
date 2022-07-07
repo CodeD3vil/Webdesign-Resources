@@ -1,0 +1,63 @@
+@use "../colors";
+@use "../typography";
+@use "../mixins";
+
+//GLOBAL CARD STYLES
+
+//cards container
+.cards {
+    padding-top: 2rem;
+    justify-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 408px;
+    box-shadow: 3px 3px 5px 1px colors.$shadow-color;
+    position: relative;
+    overflow: hidden;
+    background-color: colors.$card-bg-color;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 3px 5px 16px 1px colors.$shadow-color;
+    }
+
+    &__title {
+        height: 100%;
+        color: colors.$text-color-white;
+        font-size: clamp(1rem, 4vw, 1.3rem);
+    }
+
+    &__subtitle,
+    &__name,
+    &__email,
+    &__link {
+        color: colors.$color-dark-grey;
+        font-size: clamp(0.8rem, 3vw, 0.9rem);
+    }
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    &-top {
+        padding: 2em 1.5em 2em 1.5em;
+    }
+}
+
+//CARD TOP COLOR STYLES
+.card-lightBlue {
+    background-color: colors.$color-light-blue;
+}
+
+.card-darkBlue {
+    background-color: colors.$color-dark-blue;
+}
+
+.card-yellow {
+    background-color: colors.$color-yellow;
+}

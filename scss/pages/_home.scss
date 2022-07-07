@@ -1,0 +1,57 @@
+@use "../mixins";
+@use "../colors";
+@use "../typography";
+
+//WELCOME SECTION
+
+.home__welcome {
+    max-height: 65vh;
+    min-height: 550px;
+    @include mixins.flexCenter(column);
+
+    &-left {
+        @include mixins.flexCenter(column);
+        @include mixins.welcomeLeft;
+    }
+
+    &__title-name {
+        color: colors.$color-light-blue;
+    }
+
+    &__subtitle {
+        @include mixins.welcomeSubtitle;
+    }
+
+    &-right {
+        @include mixins.flexCenter(column);
+    }
+
+    &__img {
+        overflow: visible;
+        margin-top: 3rem;
+        width: 60%;
+    }
+}
+
+//NEWS & UPDATES SECTION
+.connect,
+.quickLinks {
+    &__title {
+        @include mixins.sectionTitle;
+    }
+    &__subtitle {
+        @include mixins.sectionSubtitle;
+    }
+}
+
+.connect {
+    @include mixins.sections;
+    // padding-bottom: 3rem;
+    &__title {
+        @include mixins.sectionTitle;
+    }
+}
+
+.quickLinks {
+    @include mixins.sections;
+}

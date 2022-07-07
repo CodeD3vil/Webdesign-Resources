@@ -1,0 +1,62 @@
+@use "../colors";
+@use "../typography";
+@use "../mixins";
+
+.card-5 {
+    &-image {
+        z-index: 1;
+        width: 75px;
+        height: 75px;
+        border-radius: 100%;
+        border: 2px solid colors.$color-grey-medium-light;
+        margin-right: 0.5rem;
+        box-shadow: 3px 3px 5px 1px colors.$shadow-color;
+    }
+
+    &-top {
+        @include mixins.flexCenter(row);
+        justify-content: space-between;
+        padding: 1.4rem 1.5rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    &__title {
+        font-size: clamp(0.9rem, 1vw, 2rem);
+        height: 100%;
+        padding-right: 1rem;
+    }
+
+    &-bottom-contact {
+        @include mixins.flexCenter(column);
+        align-items: flex-start;
+        padding: 1.1rem 0.4rem 2.2rem 0.4rem;
+    }
+
+    &__name,
+    &__email {
+        padding-left: 1.2em;
+    }
+
+    &__email {
+        padding-top: 0.2rem;
+        margin-bottom: -1.3rem;
+    }
+
+    &__button-area {
+        @include mixins.flexCenter(column);
+        &::after {
+            position: absolute;
+            content: "";
+            left: 6%;
+            bottom: 23%;
+            height: 1px;
+            width: 87%;
+            background-color: colors.$card-underline-color;
+        }
+    }
+
+    &__button {
+        width: 90%;
+    }
+}

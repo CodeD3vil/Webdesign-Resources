@@ -1,0 +1,112 @@
+@use "../colors";
+@use "../base";
+@use "../mixins";
+
+@media (max-width: base.$mobile-break) {
+    .grid {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .header-primary {
+        height: 80px;
+        background-color: colors.$color-header;
+    }
+
+    //MOBILE MENU start
+    .navigation {
+        padding-top: 5rem;
+        padding-left: 0;
+        padding-right: 3rem;
+        position: relative;
+    }
+    .header__nav {
+        width: 100vw;
+        height: 11400px;
+        z-index: 10;
+        /* inset is a shorthand for top, right, bottom, left for positioning */
+        inset: 0 0 0 35%;
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        /* using min() function allows to set padding between 2 minimum values, it chooses the smaller one */
+        transition: all 0.4s ease-out;
+        /* by default the navigation is out of view hidden outside the page */
+        transform: translateX(75%);
+        background-color: colors.$color-mobile-menu;
+        backdrop-filter: blur(7px);
+        display: block;
+        opacity: 0;
+
+        &--link {
+            width: 100%;
+            margin-top: 0.5rem;
+            padding-left: 5%;
+            font-size: 0.9rem;
+
+            &:hover {
+                background-color: colors.$color-mobile-menu-hover;
+            }
+
+            &::after {
+                display: none;
+            }
+        }
+
+        &-left {
+            @include mixins.flexCenter(column);
+            align-items: flex-start;
+        }
+
+        &-right {
+            @include mixins.flexCenter(column);
+            align-items: flex-start;
+        }
+
+        &__profile-picture {
+            width: 45px;
+            margin-left: 5%;
+            position: absolute;
+            top: 1.3rem;
+        }
+    }
+
+    /* if the data-visible attribute is true the menu will become visible by moving into the view */
+    .navigation[data-visible="true"] {
+        transform: translateX(20%);
+        opacity: 1;
+    }
+
+    .mobile-toggle {
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        z-index: 1000;
+        width: 1rem;
+        aspect-ratio: 1;
+        top: 13px;
+        right: 1.5rem;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.212);
+        width: 50px;
+        border-radius: 50%;
+        position: fixed;
+    }
+
+    .hamburger-button {
+        fill: whitesmoke;
+        width: 24px;
+        position: absolute;
+        left: 0.8rem;
+        top: 0.73rem;
+    }
+
+    .header-search {
+        background-color: transparent;
+
+        &:hover {
+            border-radius: 0px;
+        }
+    }
+}

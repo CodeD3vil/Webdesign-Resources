@@ -1,0 +1,35 @@
+@use "../mixins";
+@use "../colors";
+
+.footer {
+    position: relative;
+    padding: 1rem 7rem 2rem 6.6rem;
+    background-color: colors.$color-dark-blue;
+    @include mixins.flexSpaceBetween(row);
+
+    &__disclaimer {
+        padding-right: 3rem;
+        color: colors.$text-color-white;
+        font-size: clamp(0.3rem, 1.5vw, 0.7rem);
+    }
+
+    &__nav {
+        max-width: 1000px;
+        margin-left: 2.5rem;
+        @include mixins.flexCenter(row);
+
+        &__links {
+            &-link {
+                margin-right: 2rem;
+                color: colors.$text-color-white;
+                font-size: 0.8rem;
+                font-weight: 200;
+                transition: all 0.2s;
+
+                &:hover {
+                    color: colors.$text-color-medium-grey;
+                }
+            }
+        }
+    }
+}

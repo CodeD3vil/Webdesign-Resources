@@ -1,0 +1,40 @@
+@use "../mixins";
+@use "../colors";
+@use "../typography";
+
+//HR WELCOME SECTIOM
+.tools__welcome {
+    min-height: 65vh;
+    @include mixins.flexCenter(column);
+
+    &-left {
+        @include mixins.flexCenter(column);
+        @include mixins.welcomeLeft;
+    }
+
+    &__title-name {
+        color: colors.$color-light-blue;
+    }
+
+    &__subtitle {
+        @include mixins.welcomeSubtitle;
+    }
+
+    &-right {
+        @include mixins.flexCenter(column);
+    }
+
+    &__img {
+        margin-top: 3rem;
+        width: 70%;
+    }
+}
+
+//HR SECTIONS TITLE & SUBTITLE
+.tools {
+    padding: 1rem 2.5rem 2rem 2.5rem;
+
+    &__subtitle {
+        @include mixins.sectionSubtitle;
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Design | Tools</title>
+        <%- include('../partials/head.ejs') %>
+    </head>
+    <body>
+        <main>
+            <!-- HEADER start -->
+            <%- include('../partials/header.ejs') %>
+            <!-- HEADER end-->
+
+            <!-- SUPPORT WELCOME begin-->
+            <section class="tools__welcome section grid-2-col" id="inspiration">
+                <div class="tools__welcome-left">
+                    <h1 class="tools__welcome__title">
+                        Choose the right <span class="tools__welcome__title-name">tool</span> for the job
+                    </h1>
+                    <h2 class="tools__welcome__subtitle">
+                        Many times you might be in need of specific tool like a generator, calculator or something
+                        similar to make your life as a creator significantly easier. Check out the links below and find
+                        your favorite one.
+                    </h2>
+                </div>
+                <div class="tools__welcome-right">
+                    <img src="../public/img/tools.svg" alt="forms image" class="tools__welcome__img" />
+                </div>
+            </section>
+
+            <!-- SOFTWARE begin-->
+            <section class="resources section" id="software">
+                <h2 class="resources__title">Software</h2>
+                <h3 class="resources__subtitle">
+                    Mockups can be not only used to present a design or a product but they can serve as an inspiraton
+                    for your own ideas. There are literally tons of them out there.
+                </h3>
+                <div class="resources__cards cards grid"><%- include('../partials/cards/tools/software.ejs')%></div>
+            </section>
+            <!-- SOFTWARE end-->
+
+            <!-- IMAGE TOOLS begin-->
+            <section class="resources section" id="image-tools">
+                <h2 class="resources__title">Image Tools</h2>
+                <h3 class="resources__subtitle">
+                    The links below will lead to sites where you can get inspired by looking at complete websites made
+                    by other people.
+                </h3>
+                <div class="resources__cards cards grid"><%- include('../partials/cards//tools/imagetools.ejs')%></div>
+            </section>
+            <!-- IMAGE TOOLS end-->
+
+            <!-- CSS GENERATORS begin-->
+            <section class="resources section" id="cssgenerators">
+                <h2 class="resources__title">CSS Generators</h2>
+                <h3 class="resources__subtitle">
+                    When you are starting a new project use these website to create a mood board or simply get inspired
+                    by what others have created and shared with the world.
+                </h3>
+                <div class="resources__cards cards grid">
+                    <%- include('../partials/cards/tools/cssgenerators.ejs')%>
+                </div>
+            </section>
+            <!-- CSS GENERATORS end-->
+        </main>
+
+        <!-- FOOTER start-->
+        <div id="footer"><%- include('../partials/footer.ejs') %></div>
+        <!-- FOOTER end-->
+    </body>
+</html>

@@ -1,0 +1,29 @@
+@use "colors";
+
+$max-page-width: 1400px;
+$mobile-break: 63em;
+
+/*GLOBAL RESETS*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: colors.$bg-color;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+li,
+ul {
+    list-style: none;
+    text-decoration: none;
+}

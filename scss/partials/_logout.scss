@@ -1,0 +1,15 @@
+@use "../mixins";
+@use "../colors";
+@use "../typography";
+
+.no_access {
+    padding: 1rem 0.5rem;
+    background-color: colors.$color-mobile-jobs-links;
+    width: 300px;
+    text-align: center;
+    font-size: 1rem !important;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    color: colors.$color-dark-grey;
+}

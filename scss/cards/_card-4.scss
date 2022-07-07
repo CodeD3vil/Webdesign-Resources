@@ -1,0 +1,53 @@
+@use "../colors";
+@use "../typography";
+@use "../mixins";
+
+//title, form links, darkblue top, search button right
+.card-4 {
+    &__title {
+        padding-left: 1rem;
+    }
+
+    &__subtitle {
+        padding: 1em;
+        color: colors.$color-grey-medium;
+    }
+
+    &-bottom-forms {
+        @include mixins.flexCenter(column);
+        padding-top: 1rem;
+        padding-bottom: 0.6rem;
+        align-items: flex-start;
+        max-height: 180px;
+    }
+
+    &__link {
+        transition: all 0.3s;
+        width: 100%;
+        height: 100%;
+        padding-left: 2.2rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+
+        &:hover {
+            background-color: colors.$card-underline-color;
+        }
+    }
+
+    &__button-area {
+        @include mixins.flexCenter(column);
+        &::after {
+            position: absolute;
+            content: "";
+            left: 8%;
+            bottom: 17%;
+            height: 1px;
+            width: 83%;
+            background-color: colors.$card-underline-color;
+        }
+    }
+
+    &__button {
+        width: 87%;
+    }
+}

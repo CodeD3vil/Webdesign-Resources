@@ -1,0 +1,23 @@
+@use "colors";
+
+/* a helper class that hides element from users but allows the screen readers to see it */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+//Links that are cyan
+.links-color-accent {
+    color: colors.$color-light-blue;
+    transition: all 0.2s;
+
+    &:hover {
+        color: colors.$color-blue-link-hover;
+    }
+}

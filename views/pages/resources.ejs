@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Design | Resources</title>
+        <%- include('../partials/head.ejs') %>
+    </head>
+    <body>
+        <main>
+            <!-- HEADER start -->
+            <%- include('../partials/header.ejs') %>
+            <!-- HEADER end-->
+
+            <!-- RESOURCES WELCOME begin-->
+            <section class="resources__welcome section grid-2-col" id="resources">
+                <div class="resources__welcome-left">
+                    <h1 class="resources__welcome__title">
+                        All design <span class="resources__welcome__title-name">resources </span>
+                        in one place.
+                    </h1>
+                    <h2 class="resources__welcome__subtitle">
+                        Here you can find a collection of websites that can help you with building and designing your
+                        own websites or apps. Browse my favorite websites that contain numerous free assets like icons,
+                        fonts, mockups, images and much more.
+                    </h2>
+                </div>
+                <div class="resources__welcome-right">
+                    <img src="../public/img/resources.svg" alt="forms image" class="resources__welcome__img" />
+                </div>
+            </section>
+            <!-- RESOURCES WELCOME end-->
+
+            <!-- IMAGES begin-->
+            <section class="resources section" id="images">
+                <h2 class="resources__title">Images</h2>
+                <h3 class="resources__subtitle">
+                    Almost every website needs some sort of image to convey its message and purpose visually for the
+                    audience.
+                </h3>
+                <div class="resources__cards cards grid"><%- include('../partials/cards/resources/images.ejs')%></div>
+            </section>
+            <!-- IMAGES end-->
+
+            <!-- ILLUSTRATIONS begin-->
+            <section class="resources section" id="illustrations">
+                <h2 class="resources__title">Illustrations</h2>
+                <h3 class="resources__subtitle">
+                    Find, create, edit and download illustrations that best suit your project from these amazing
+                    websites.
+                </h3>
+                <div class="resources__cards cards grid">
+                    <%- include('../partials/cards/resources/illustrations.ejs')%>
+                </div>
+            </section>
+            <!-- IILLUSTRATIONS end-->
+
+            <!-- FONTS begin-->
+            <section class="resources section" id="fonts">
+                <h2 class="resources__title">Fonts</h2>
+                <h3 class="resources__subtitle">
+                    Good choice in typoghrapy is the single most important part of any webpage. Luckily, today we have a
+                    large number of absolutely free fonts out there.
+                </h3>
+                <div class="resources__cards cards grid"><%- include('../partials/cards/resources/fonts.ejs')%></div>
+            </section>
+            <!-- FONTS end-->
+
+            <!-- ICONS begin-->
+            <section class="resources section" id="icons">
+                <h2 class="resources__title">Icons</h2>
+                <h3 class="resources__subtitle">
+                    These websites contain an endless selection of free or paid icons that you can use to your heart's
+                    content.
+                </h3>
+                <div class="resources__cards cards grid"><%- include('../partials/cards/resources/icons.ejs')%></div>
+            </section>
+            <!-- ICONS end-->
+
+            <!-- COLORS begin-->
+            <section class="resources section" id="colors">
+                <h2 class="resources__title">Colors</h2>
+                <h3 class="resources__subtitle">
+                    There are many websites that let you play with color wheels and gradients to chose the best color
+                    combination for your project. These are my favorites.
+                </h3>
+                <div class="resources__cards cards grid"><%- include('../partials/cards/resources/colors.ejs')%></div>
+            </section>
+            <!-- COLORS end-->
+
+            <!-- SVG begin-->
+            <section class="resources section" id="colors">
+                <h2 class="resources__title">SVG</h2>
+                <h3 class="resources__subtitle">
+                    SVG (scalable vector graphics) is a XML-language based graphics and it`s main advantage is that
+                    scaling the vector image preserves the shapes. It also supports transformations, clipping paths,
+                    alpha masks, filter effects and can be animated.
+                </h3>
+                <div class="resources__cards cards grid"><%- include('../partials/cards/resources/svg.ejs')%></div>
+            </section>
+            <!-- SVG end-->
+        </main>
+
+        <!-- FOOTER start-->
+        <div id="footer"><%- include('../partials/footer.ejs') %></div>
+        <!-- FOOTER end-->
+    </body>
+</html>

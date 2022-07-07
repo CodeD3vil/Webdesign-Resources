@@ -1,0 +1,77 @@
+@use "../mixins";
+@use "../colors";
+@use "../typography";
+
+//MOBILE BUTTON
+.mobile-toggle {
+    display: none;
+}
+
+//HEADER
+.header-primary,
+.header__nav {
+    height: 80px;
+    margin: 0 auto;
+    background-color: colors.$color-header;
+}
+
+//HEADER NAV links
+.header__nav {
+    background-color: colors.$color-header;
+    @include mixins.flexSpaceBetween(row);
+    padding: 0 3rem 0 3rem;
+    max-width: 1600px;
+
+    &-left {
+        @include mixins.flexSpaceBetween(row);
+    }
+
+    &-right {
+        @include mixins.flexCenter(row);
+    }
+
+    &__profile-picture {
+        width: 45px;
+        border-radius: 50px;
+    }
+
+    &--link {
+        @include mixins.navLinksHeader;
+
+        &::after {
+            position: absolute;
+            content: "";
+            top: 1.7em;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: colors.$text-color-white;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform ease-in-out 400ms;
+        }
+
+        &:hover {
+            transition: all 0.4s;
+
+            &::after {
+                transform: scaleX(1);
+                transform-origin: left;
+            }
+        }
+    }
+}
+
+.header-search {
+    background-color: colors.$color-blue-link-hover;
+    padding: 0.3em 1em;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        border-radius: 18px;
+    }
+
+    &::after {
+        display: none;
+    }
+}

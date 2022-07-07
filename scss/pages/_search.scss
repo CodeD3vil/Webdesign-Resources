@@ -1,0 +1,80 @@
+@use "../mixins";
+@use "../colors";
+@use "../typography";
+
+//SEARCH PAGE
+.search {
+    @include mixins.flexCenter(column);
+
+    &-bg {
+        @include mixins.flexCenter(column);
+        width: 100%;
+        background-color: colors.$bg-color;
+    }
+
+    &__bar {
+        min-width: 63%;
+
+        &-term {
+            width: 100%;
+            padding: 17px 9px 17px 50px;
+            height: 20px;
+            border-radius: 50px;
+            outline: none;
+            color: colors.$color-grey-medium;
+            border: 1px solid colors.$color-button-border-light;
+
+            &::placeholder {
+                color: colors.$search-placeholder-text;
+            }
+
+            &:focus {
+                color: colors.$text-color-dark-grey;
+                box-shadow: 0 0 5px colors.$search-inner-shadow inset;
+            }
+        }
+        &-element {
+            @include mixins.flexCenter(row);
+            position: relative;
+            padding-top: 4rem;
+            padding-bottom: 2rem;
+            width: 100%;
+
+            &--icon {
+                position: absolute;
+                left: 15px;
+            }
+        }
+    }
+}
+
+//SEARCH RESULT SECTION
+.search {
+    &__results {
+        min-width: 63%;
+        min-height: 60vh;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+//SERACH RESULTS SECTION links
+.match {
+    margin-bottom: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    width: 100%;
+    background-color: colors.$color-search-result-bg;
+    transition: all 0.3s;
+    display: block;
+    color: colors.$text-color-dark-grey;
+
+    &:hover {
+        background-color: colors.$color-light-blue;
+        color: colors.$text-color-white;
+    }
+}
+
+//BACK TO TOP BUTTON
+.toTop {
+    margin-top: 2rem;
+}

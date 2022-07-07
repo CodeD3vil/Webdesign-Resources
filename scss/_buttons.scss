@@ -1,0 +1,94 @@
+@use "colors";
+@use "typography";
+@use "mixins";
+
+// GLOBAL BUTTONS STYLE
+.button {
+    border: 1px solid colors.$color-button-border-light;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: colors.$text-color-medium-dark-grey;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: clamp(0.7rem, 1.6vw, 0.85rem);
+    text-align: center;
+    transition: all 0.4s ease-in;
+}
+
+.button a:link a:visited a:focus a:active {
+    color: colors.$text-color-dark-grey;
+}
+
+// BACK TO TOP BUTTON
+.toTop {
+    &--link {
+        border-radius: 100px;
+        transition: all 0.3s;
+        border: 1px solid colors.$color-button-border-light;
+        padding: 0.6rem 0.9rem;
+        float: right;
+
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 2px 2px 10px 0px colors.$shadow-color;
+        }
+        &-icon {
+            margin-top: 0.2rem;
+            height: 20px;
+            width: 20px;
+        }
+    }
+}
+
+//GLOBAL CARD BUTTON STYLES
+.card {
+    &__button {
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+        text-align: center;
+        font-size: clamp(0.7rem, 3vw, 0.8rem);
+
+        &-link {
+            color: colors.$color-dark-grey;
+            font-size: clamp(0.7rem, 3vw, 0.8rem);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 30px;
+            transition: all 0.3s;
+
+            &:hover {
+                color: colors.$text-color-white;
+            }
+        }
+    }
+}
+
+//CARD BUTTON AREA
+.button-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+//BUTTONS HOVER COLORS
+.button-lightBlue {
+    &:hover {
+        @include mixins.buttonHoverTeal;
+    }
+}
+
+.button-yellow {
+    &:hover {
+        @include mixins.buttonHoverYellow;
+    }
+}
+
+.button-blue {
+    &:hover {
+        @include mixins.buttonHoverBlue;
+    }
+}

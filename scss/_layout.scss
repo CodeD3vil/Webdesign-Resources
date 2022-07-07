@@ -1,0 +1,25 @@
+@use "./base";
+
+//BASE GRID
+.grid {
+    max-width: base.$max-page-width;
+    display: grid;
+    grid-gap: 40px;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+//2 COLUMN GRID
+.grid-2-col {
+    max-width: base.$max-page-width;
+    display: grid;
+    grid-gap: 40px;
+    align-items: center;
+    grid-template-columns: 60% 40%;
+}
+
+//SECTIONS BASE LAYOUT
+.section {
+    max-width: base.$max-page-width;
+    margin: 0 auto;
+}

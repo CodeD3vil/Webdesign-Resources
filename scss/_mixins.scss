@@ -1,0 +1,95 @@
+@use "colors";
+
+//FLEXBOX
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexCenter($flexDirection) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $flexDirection;
+}
+
+@mixin flexSpaceBetween($flexDirection) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: $flexDirection;
+}
+
+//NAV LKINKS
+@mixin navLinksHeader {
+    color: colors.$text-color-white;
+    font-size: 1rem;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-right: 2rem;
+    padding: 0.2rem;
+}
+
+//WELCOME (hero) SECTIONS
+@mixin welcomeLeft {
+    align-items: flex-start;
+    padding: 5rem 0 5rem 4.3rem;
+    height: 100%;
+}
+
+@mixin welcomeSubtitle {
+    width: 90%;
+    font-weight: 100;
+    color: colors.$color-grey-medium;
+    padding: 2rem 0 4rem 0;
+}
+
+@mixin welcomeButton {
+    min-width: 140px;
+    padding: 0.7rem 1.7rem;
+}
+
+@mixin welcomeResponsive {
+    grid-template-columns: 1fr;
+    padding: 1rem 2rem 1rem 2rem;
+    min-height: 300px;
+}
+
+//SECTIONS
+@mixin sections {
+    padding: 2.5rem 3rem 2rem 3rem;
+}
+
+@mixin sectionSubtitle {
+    padding: 0 0 1rem 0;
+    font-weight: 400;
+    color: colors.$text-color-medium-dark-grey;
+}
+
+@mixin sectionTitle {
+    font-weight: 400;
+    padding: 1.5rem 0.5rem 0.5rem 0;
+    width: 100%;
+    border-top: 1px solid colors.$underline-color;
+}
+
+//BUTTON HOVER COLORS
+@mixin buttonHoverTeal {
+    border: 1px solid colors.$color-light-blue;
+    color: colors.$text-color-white;
+    background-color: colors.$color-light-blue;
+}
+
+@mixin buttonHoverBlue {
+    border: 1px solid colors.$color-dark-blue;
+    color: colors.$text-color-white;
+    background-color: colors.$color-dark-blue;
+}
+
+@mixin buttonHoverYellow {
+    border: 1px solid colors.$color-yellow;
+    color: colors.$text-color-white;
+    background-color: colors.$color-yellow;
+}

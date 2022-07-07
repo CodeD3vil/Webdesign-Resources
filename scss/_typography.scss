@@ -1,0 +1,44 @@
+@use "colors";
+@use "mixins";
+
+$font-primary: "Ubuntu", sans-serif;
+$font-secondary: "Open Sans", sans-serif;
+
+h1,
+h2 {
+    font-family: $font-primary;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-secondary;
+    color: colors.$text-color-dark-grey;
+}
+
+h1 {
+    line-height: 1.2;
+    font-size: clamp(2rem, 4vw, 4rem);
+}
+
+h2 {
+    font-size: clamp(1.1rem, 1.9vw, 2.7rem);
+    font-family: $font-secondary;
+}
+
+h3 {
+    font-size: clamp(0.85rem, 1.2vw, 2rem) !important;
+    line-height: 1.6;
+}
+
+p {
+    font-size: clamp(0.77rem, 0.9vw, 1rem);
+    font-family: $font-secondary;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    font-family: $font-secondary;
+}
