@@ -103,6 +103,13 @@ a {
   font-family: "Open Sans", sans-serif;
 }
 
+.tooltip.tooltiptext {
+  width: 160px;
+  bottom: 80%;
+  left: 40%;
+  margin-left: 80px;
+}
+
 .button {
   border: 1px solid rgba(155, 155, 155, 0.5);
   border-radius: 50px;
@@ -607,7 +614,7 @@ a {
 }
 
 .header-search {
-  background-color: #00ade69d;
+  background-color: #49caf5;
   padding: 0.3em 1em;
   transition: all 0.3s ease-in-out;
 }
@@ -1001,12 +1008,12 @@ a {
   border: 0;
 }
 
-.links-color-accent {
+.links-color-cyan {
   color: #00ace6;
   transition: all 0.2s;
 }
-.links-color-accent:hover {
-  color: #00ade69d;
+.links-color-cyan:hover {
+  color: #49caf5;
 }
 
 .grid {
