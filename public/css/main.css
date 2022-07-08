@@ -607,7 +607,7 @@ a {
 }
 
 .header-search {
-  background-color: #00ade69d;
+  background-color: #49caf5;
   padding: 0.3em 1em;
   transition: all 0.3s ease-in-out;
 }
@@ -1001,12 +1001,12 @@ a {
   border: 0;
 }
 
-.links-color-accent {
+.links-color-cyan {
   color: #00ace6;
   transition: all 0.2s;
 }
-.links-color-accent:hover {
-  color: #00ade69d;
+.links-color-cyan:hover {
+  color: #49caf5;
 }
 
 .grid {

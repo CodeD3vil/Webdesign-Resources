@@ -1,7 +1,10 @@
 {
     "Adobe_Fonts": "https://fonts.adobe.com/fonts/aileron",
+    "Adobe_XD": "https://www.adobe.com/products/xd.html",
+    "Affinity_Designer": "https://affinity.serif.com/en-us/designer/",
     "All_Icons": "https://www.icofont.com/icons",
     "Animate_Keyframes": "https://keyframes.app/animate/",
+    "Atom": "https://atom.io/",
     "Badges_for_GitHub": "https://dev.to/envoy_/150-badges-for-github-pnk",
     "Behance": "https://www.behance.net/",
     "Clip_Path_Maker": "https://bennettfeely.com/clippy/",
@@ -53,13 +56,15 @@
     "Pixabay": "https://pixabay.com/",
     "SVG_Crop": "https://svgcrop.com/",
     "SVG_Viever_and_Optimizer": "https://www.svgviewer.dev/",
-    "Sketch_App": "https://www.sketchappsources.com/",
+    "Sketch_App": "https://www.sketch.com/",
     "Source_Code_Image_Generator": "https://carbon.now.sh/",
+    "Sublime_Text": "https://www.sublimetext.com/",
     "Testimonial_Generator": "https://testimonial-generator.com/index.php",
     "Transparent_Textures": "https://www.transparenttextures.com/",
     "Udemy": "https://www.udemy.com/",
     "Unblast_Mockups": "https://unblast.com/",
     "unDraw": "https://undraw.co/illustrations",
     "Unsplash": "https://unsplash.com/",
+    "VS_Code": "https://code.visualstudio.com/download",
     "Webflow": "https://webflow.com/made-in-webflow"
 }
