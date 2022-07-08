@@ -8,27 +8,27 @@
 
         &__wave {
             height: 6vh;
-            transform: translateY(1px);
         }
         &__disclaimer {
-            padding-right: 2rem;
+            align-self: flex-end;
+            padding-left: 2rem;
+            padding-right: 0;
+            margin-bottom: 0.1rem;
         }
 
         &__nav {
             @include mixins.flexCenter(column);
             align-items: flex-start;
+            order: 1;
 
             &__links {
+                width: 100%;
+                text-align: right;
                 &-link {
                     font-size: 0.7rem;
-                    margin-right: 0;
                     margin-bottom: 0.3rem;
                 }
             }
-        }
-
-        &__disclaimer {
-            margin-top: 5rem;
         }
     }
 }
