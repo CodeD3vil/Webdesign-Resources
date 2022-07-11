@@ -51,7 +51,11 @@
 
 //CARD TOP COLOR STYLES
 .card-lightBlue {
-    background-color: colors.$color-light-blue;
+    background-image: linear-gradient(
+        110.64927737041467deg,
+        rgb(30, 129, 236) 5.533854166666667%,
+        rgb(0, 172, 230) 96.67968749999999%
+    );
 }
 
 .card-darkBlue {
@@ -59,5 +63,22 @@
 }
 
 .card-yellow {
+    background-color: colors.$color-yellow;
+}
+
+//GRADIENTS
+.card-gradBlue {
+    background-image: linear-gradient(
+        110.64927737041467deg,
+        rgb(48, 109, 251) 5.533854166666667%,
+        rgb(36, 172, 240) 96.67968749999999%
+    );
+}
+
+.card-gradPurple {
+    background-color: colors.$color-dark-blue;
+}
+
+.card-gradYellow {
     background-color: colors.$color-yellow;
 }
