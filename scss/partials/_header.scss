@@ -63,12 +63,14 @@
 }
 
 .header-search {
-    background-color: colors.$color-blue-link-hover;
+    background-color: transparent;
     padding: 0.3em 1em;
+    border: 1px solid colors.$color-search-btn-border;
     transition: all 0.3s ease-in-out;
 
     &:hover {
         border-radius: 18px;
+        background-color: colors.$color-search-btn-bg-hover;
     }
 
     &::after {

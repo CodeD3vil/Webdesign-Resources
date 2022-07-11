@@ -4,7 +4,7 @@
 .footer {
     position: relative;
     padding: 1rem 7rem 2rem 6.6rem;
-    background-color: colors.$color-dark-blue;
+    background-color: colors.$color-footer;
     @include mixins.flexSpaceBetween(row);
 
     &__disclaimer {

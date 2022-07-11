@@ -1,5 +1,6 @@
-/* PRIMARY ISC COLORS */
+/* PRIMARY COLORS */
 /* BACKGROUNDS */
+/* SEARCHBAR BUTTON COLORS */
 /* TEXT COLORS */
 /* BLUE LINKS HOVER */
 /* GREYS */
@@ -37,7 +38,7 @@
   transform: translateY(2px);
   margin-top: 2rem;
   height: 10vh;
-  fill: #1f3f6d;
+  fill: #151b22;
 }
 
 /*GLOBAL RESETS*/
@@ -227,7 +228,7 @@ a {
 }
 
 .card-lightBlue {
-  background-color: #00ace6;
+  background-image: linear-gradient(110.6492773704deg, #1e81ec 5.5338541667%, #00ace6 96.6796875%);
 }
 
 .card-darkBlue {
@@ -238,8 +239,21 @@ a {
   background-color: #ffcb0c;
 }
 
+.card-gradBlue {
+  background-image: linear-gradient(110.6492773704deg, #306dfb 5.5338541667%, #24acf0 96.6796875%);
+}
+
+.card-gradPurple {
+  background-color: #1f3f6d;
+}
+
+.card-gradYellow {
+  background-color: #ffcb0c;
+}
+
 .card-1__title {
   padding-left: 0.1rem;
+  background-color: transparent;
 }
 .card-1__subtitle {
   padding: 1.4em;
@@ -453,7 +467,7 @@ a {
 .footer {
   position: relative;
   padding: 1rem 7rem 2rem 6.6rem;
-  background-color: #1f3f6d;
+  background-color: #151b22;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -557,11 +571,11 @@ a {
 .header__nav {
   height: 80px;
   margin: 0 auto;
-  background-color: #1f3f6d;
+  background-color: #151b22;
 }
 
 .header__nav {
-  background-color: #1f3f6d;
+  background-color: #151b22;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -615,12 +629,14 @@ a {
 }
 
 .header-search {
-  background-color: #49caf5;
+  background-color: transparent;
   padding: 0.3em 1em;
+  border: 1px solid rgba(159, 247, 255, 0.199);
   transition: all 0.3s ease-in-out;
 }
 .header-search:hover {
   border-radius: 18px;
+  background-color: rgba(159, 247, 255, 0.178);
 }
 .header-search::after {
   display: none;
@@ -1030,7 +1046,7 @@ a {
   display: grid;
   grid-gap: 40px;
   align-items: center;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 65% 35%;
 }
 
 .section {
@@ -1046,7 +1062,7 @@ a {
 
   .header-primary {
     height: 80px;
-    background-color: #1f3f6d;
+    background-color: #151b22;
   }
 
   .navigation {

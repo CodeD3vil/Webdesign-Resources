@@ -1,6 +1,6 @@
-/* PRIMARY ISC COLORS */
+/* PRIMARY COLORS */
 $color-dark-blue: #1f3f6d;
-$color-light-blue: #00ace6;
+$color-light-blue: rgb(0, 172, 230);
 $color-yellow: #ffcb0c;
 
 /* BACKGROUNDS */
@@ -9,7 +9,12 @@ $color-search-result-bg: rgba(0, 0, 0, 0.05);
 $color-mobile-menu: rgba(30, 39, 60, 0.648);
 $color-mobile-menu-hover: rgba(30, 39, 60, 0.826);
 $color-mobile-jobs-links: rgba(14, 47, 92, 0.128);
-$color-header: #1f3f6d;
+$color-header: #151b22;
+$color-footer: #151b22;
+
+/* SEARCHBAR BUTTON COLORS */
+$color-search-btn-border: rgba(159, 247, 255, 0.199);
+$color-search-btn-bg-hover: rgba(159, 247, 255, 0.178);
 
 /* TEXT COLORS */
 $text-color-white: #ffffff;
