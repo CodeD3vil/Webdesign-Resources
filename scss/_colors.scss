@@ -1,7 +1,25 @@
 /* PRIMARY COLORS */
-$color-dark-blue: #1f3f6d;
+$color-dark-blue: rgb(31, 63, 109);
 $color-light-blue: rgb(0, 172, 230);
-$color-yellow: #ffcb0c;
+$color-yellow: rgb(255, 203, 12);
+
+$gradient-cyan: linear-gradient(
+    110.64927737041467deg,
+    rgb(30, 129, 236) 5.533854166666667%,
+    rgb(0, 172, 230) 96.67968749999999%
+);
+
+$gradient-yellow: linear-gradient(
+    110.64927737041467deg,
+    rgb(235, 162, 36) 5.533854166666667%,
+    rgb(255, 203, 12) 96.67968749999999%
+);
+
+$gradient-blue: linear-gradient(
+    110.64927737041467deg,
+    rgb(9, 45, 96) 5.533854166666667%,
+    rgb(31, 63, 109) 96.67968749999999%
+);
 
 /* BACKGROUNDS */
 $card-bg-color: #ffffff;

@@ -4,24 +4,17 @@
 
 //title, subtitle, name, email, button, lightblue top
 .card-1 {
+    &-top {
+        padding: 2em 1.8em;
+    }
     &__title {
         padding-left: 0.1rem;
-        background-color: transparent;
     }
 
     &__subtitle {
-        padding: 1.4em;
+        padding: 1.8em;
         color: colors.$color-blue-grey;
         min-height: 80px;
-    }
-
-    &__name,
-    &__email {
-        padding-left: 1.4em;
-    }
-
-    &__email {
-        padding-bottom: 1rem;
     }
 
     &__button-area {
