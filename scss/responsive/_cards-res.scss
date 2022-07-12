@@ -8,19 +8,9 @@
         padding-bottom: 1.1rem;
     }
 
-    .card-1 {
+    .card {
         &__subtitle {
             min-height: 60px;
-        }
-    }
-
-    .card-4 {
-        &__title {
-            padding-left: 0.23rem;
-        }
-
-        &__link {
-            padding-left: 1.5rem;
         }
     }
 }

@@ -20,9 +20,8 @@
     border-radius: 10px;
     transition: all 0.5s;
 
-    &:hover {
-        transform: translateY(-2px);
-        box-shadow: 3px 5px 16px 1px colors.$shadow-color;
+    &-top {
+        padding: 2em 1.8em;
     }
 
     &__title {
@@ -34,6 +33,31 @@
     &__subtitle {
         color: colors.$color-dark-grey;
         font-size: clamp(0.8rem, 3vw, 0.9rem);
+        padding: 1.8em;
+        color: colors.$color-blue-grey;
+        min-height: 80px;
+    }
+
+    &__button-area {
+        @include mixins.flexCenter(column);
+        &::after {
+            position: absolute;
+            content: "";
+            left: 5%;
+            bottom: 24%;
+            height: 1px;
+            width: 89%;
+            background-color: colors.$card-underline-color;
+        }
+    }
+
+    &__button {
+        width: 90%;
+    }
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 3px 5px 16px 1px colors.$shadow-color;
     }
 }
 
