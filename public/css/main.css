@@ -173,7 +173,7 @@ a {
   justify-content: center;
 }
 
-.button-lightBlue:hover {
+.button-cyan:hover {
   border: 1px solid #00ace6;
   color: #ffffff;
   background-color: #00ace6;
@@ -206,9 +206,8 @@ a {
   border-radius: 10px;
   transition: all 0.5s;
 }
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: 3px 5px 16px 1px rgba(0, 0, 0, 0.1);
+.card-top {
+  padding: 2em 1.8em;
 }
 .card__title {
   height: 100%;
@@ -218,6 +217,31 @@ a {
 .card__subtitle {
   color: #3f4343;
   font-size: clamp(0.8rem, 3vw, 0.9rem);
+  padding: 1.8em;
+  color: #46595e;
+  min-height: 80px;
+}
+.card__button-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card__button-area::after {
+  position: absolute;
+  content: "";
+  left: 5%;
+  bottom: 24%;
+  height: 1px;
+  width: 89%;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+.card__button {
+  width: 90%;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 3px 5px 16px 1px rgba(0, 0, 0, 0.1);
 }
 
 .card-cyan {
@@ -230,36 +254,6 @@ a {
 
 .card-yellow {
   background-image: linear-gradient(110.6492773704deg, #eba224 5.5338541667%, #ffcb0c 96.6796875%);
-}
-
-.card-1-top {
-  padding: 2em 1.8em;
-}
-.card-1__title {
-  padding-left: 0.1rem;
-}
-.card-1__subtitle {
-  padding: 1.8em;
-  color: #46595e;
-  min-height: 80px;
-}
-.card-1__button-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.card-1__button-area::after {
-  position: absolute;
-  content: "";
-  left: 5%;
-  bottom: 24%;
-  height: 1px;
-  width: 89%;
-  background-color: rgba(0, 0, 0, 0.06);
-}
-.card-1__button {
-  width: 90%;
 }
 
 .footer {
@@ -864,7 +858,7 @@ a {
   }
 
   .navigation {
-    padding-top: 5rem;
+    padding-top: 6rem;
     padding-left: 0;
     padding-right: 3rem;
     position: relative;
@@ -875,7 +869,7 @@ a {
     height: 11400px;
     z-index: 10;
     /* inset is a shorthand for top, right, bottom, left for positioning */
-    inset: 0 0 0 35%;
+    inset: 0 0 0 30%;
     position: fixed;
     flex-direction: column;
     align-items: flex-start;
@@ -891,9 +885,11 @@ a {
   }
   .header__nav--link {
     width: 100%;
-    margin-top: 0.5rem;
+    padding: 0.6rem 0;
+    padding-right: 11rem;
     padding-left: 5%;
     font-size: 0.9rem;
+    text-align: right;
   }
   .header__nav--link:hover {
     background-color: rgba(30, 39, 60, 0.826);
@@ -919,7 +915,7 @@ a {
     width: 45px;
     margin-left: 5%;
     position: absolute;
-    top: 1.3rem;
+    top: 1.2rem;
   }
 
   /* if the data-visible attribute is true the menu will become visible by moving into the view */
@@ -954,6 +950,7 @@ a {
 
   .header-search {
     background-color: transparent;
+    border: none;
   }
   .header-search:hover {
     border-radius: 0px;

@@ -75,7 +75,7 @@
 }
 
 //BUTTONS HOVER COLORS
-.button-lightBlue {
+.button-cyan {
     &:hover {
         @include mixins.buttonHoverTeal;
     }
