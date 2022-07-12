@@ -860,16 +860,16 @@ a {
   .navigation {
     padding-top: 6rem;
     padding-left: 0;
-    padding-right: 3rem;
+    padding-right: 0;
     position: relative;
   }
 
   .header__nav {
-    width: 100vw;
+    width: 50vw;
     height: 11400px;
     z-index: 10;
     /* inset is a shorthand for top, right, bottom, left for positioning */
-    inset: 0 0 0 30%;
+    inset: 0 0 0 32%;
     position: fixed;
     flex-direction: column;
     align-items: flex-start;
@@ -886,8 +886,7 @@ a {
   .header__nav--link {
     width: 100%;
     padding: 0.6rem 0;
-    padding-right: 11rem;
-    padding-left: 5%;
+    padding-right: 20%;
     font-size: 0.9rem;
     text-align: right;
   }
@@ -912,6 +911,7 @@ a {
     align-items: flex-start;
   }
   .header__nav__profile-picture {
+    display: none;
     width: 45px;
     margin-left: 5%;
     position: absolute;
@@ -932,7 +932,7 @@ a {
     width: 1rem;
     aspect-ratio: 1;
     top: 13px;
-    right: 1.5rem;
+    right: 7%;
     border: none;
     background-color: rgba(128, 128, 128, 0.212);
     width: 50px;
@@ -1123,15 +1123,8 @@ a {
     padding-bottom: 1.1rem;
   }
 
-  .card-1__subtitle {
+  .card__subtitle {
     min-height: 60px;
-  }
-
-  .card-4__title {
-    padding-left: 0.23rem;
-  }
-  .card-4__link {
-    padding-left: 1.5rem;
   }
 }
 
