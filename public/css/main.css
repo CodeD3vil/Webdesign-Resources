@@ -1,4 +1,5 @@
 /* PRIMARY COLORS */
+/* CARD TOPS */
 /* BACKGROUNDS */
 /* SEARCHBAR BUTTON COLORS */
 /* TEXT COLORS */
@@ -7,7 +8,6 @@
 /* ELEMENTS dividers */
 /* CARDS shadow */
 /* BUTTONS outline */
-/* SVG colors*/
 /* SCROLLBAR colors*/
 /* SEARCHBAR colors*/
 ::-webkit-scrollbar {
@@ -55,7 +55,6 @@ html {
 }
 
 body {
-  background-color: #ffffff;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -249,7 +248,7 @@ a {
 }
 
 .card-blue {
-  background-color: #1f3f6d;
+  background-image: linear-gradient(110.6492773704deg, #092d60 5.5338541667%, #1f3f6d 96.6796875%);
 }
 
 .card-yellow {
@@ -311,7 +310,7 @@ a {
 .resources__welcome__subtitle {
   width: 90%;
   font-weight: 100;
-  color: #a0a0a0;
+  color: #46595e;
   padding: 2rem 0 4rem 0;
 }
 .resources__welcome-right {
@@ -336,7 +335,7 @@ a {
 }
 .resources__subtitle {
   padding: 0 0 1rem 0;
-  font-weight: 400;
+  font-weight: 300;
   color: #5f6262;
 }
 
@@ -351,7 +350,7 @@ a {
 }
 .policies__subtitle {
   padding: 0 0 1rem 0;
-  font-weight: 400;
+  font-weight: 300;
   color: #5f6262;
 }
 
@@ -457,7 +456,7 @@ a {
 .home__welcome__subtitle {
   width: 90%;
   font-weight: 100;
-  color: #a0a0a0;
+  color: #46595e;
   padding: 2rem 0 4rem 0;
 }
 .home__welcome-right {
@@ -482,7 +481,7 @@ a {
 .connect__subtitle,
 .quickLinks__subtitle {
   padding: 0 0 1rem 0;
-  font-weight: 400;
+  font-weight: 300;
   color: #5f6262;
 }
 
@@ -522,7 +521,7 @@ a {
 .inspiration__welcome__subtitle {
   width: 90%;
   font-weight: 100;
-  color: #a0a0a0;
+  color: #46595e;
   padding: 2rem 0 4rem 0;
 }
 .inspiration__welcome-right {
@@ -547,7 +546,7 @@ a {
 }
 .inspiration__subtitle {
   padding: 0 0 1rem 0;
-  font-weight: 400;
+  font-weight: 300;
   color: #5f6262;
 }
 
@@ -646,7 +645,7 @@ a {
 .tools__welcome__subtitle {
   width: 90%;
   font-weight: 100;
-  color: #a0a0a0;
+  color: #46595e;
   padding: 2rem 0 4rem 0;
 }
 .tools__welcome-right {
@@ -665,7 +664,7 @@ a {
 }
 .tools__subtitle {
   padding: 0 0 1rem 0;
-  font-weight: 400;
+  font-weight: 300;
   color: #5f6262;
 }
 
