@@ -42,7 +42,7 @@
 @mixin welcomeSubtitle {
     width: 90%;
     font-weight: 100;
-    color: colors.$color-grey-medium;
+    color: colors.$color-blue-grey;
     padding: 2rem 0 4rem 0;
 }
 
@@ -64,7 +64,7 @@
 
 @mixin sectionSubtitle {
     padding: 0 0 1rem 0;
-    font-weight: 400;
+    font-weight: 300;
     color: colors.$text-color-medium-dark-grey;
 }
 

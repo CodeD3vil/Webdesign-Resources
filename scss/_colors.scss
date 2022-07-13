@@ -1,8 +1,9 @@
 /* PRIMARY COLORS */
 $color-dark-blue: rgb(31, 63, 109);
-$color-light-blue: rgb(0, 172, 230);
+$color-light-blue: #00ace6;
 $color-yellow: rgb(255, 203, 12);
 
+/* CARD TOPS */
 $gradient-cyan: linear-gradient(
     110.64927737041467deg,
     rgb(30, 129, 236) 5.533854166666667%,
@@ -27,6 +28,7 @@ $color-search-result-bg: rgba(0, 0, 0, 0.05);
 $color-mobile-menu: rgba(30, 39, 60, 0.648);
 $color-mobile-menu-hover: rgba(30, 39, 60, 0.826);
 $color-mobile-jobs-links: rgba(14, 47, 92, 0.128);
+
 $color-header: #151b22;
 $color-footer: #151b22;
 
@@ -60,9 +62,6 @@ $shadow-color: rgba(0, 0, 0, 0.1);
 
 /* BUTTONS outline */
 $color-button-border-light: rgba(155, 155, 155, 0.5);
-
-/* SVG colors*/
-$checkmark-green: #008e45;
 
 /* SCROLLBAR colors*/
 $color-scrollbar-bg: #46595e;
