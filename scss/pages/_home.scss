@@ -5,8 +5,7 @@
 //WELCOME SECTION
 
 .home__welcome {
-    max-height: 65vh;
-    min-height: 550px;
+    @include mixins.welcomeSection;
     @include mixins.flexCenter(column);
 
     &-left {

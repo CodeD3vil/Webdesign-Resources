@@ -33,6 +33,11 @@
 }
 
 //WELCOME (hero) SECTIONS
+@mixin welcomeSection {
+    max-height: 60vh;
+    min-height: 530px;
+}
+
 @mixin welcomeLeft {
     align-items: flex-start;
     padding: 5rem 0 5rem 4.3rem;
