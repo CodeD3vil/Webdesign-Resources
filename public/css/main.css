@@ -388,8 +388,8 @@ a {
   flex-direction: row;
 }
 .header__nav__profile-picture {
-  width: 45px;
-  border-radius: 50px;
+  width: 35px;
+  margin-top: 0.25rem;
 }
 .header__nav--link {
   color: #ffffff;
