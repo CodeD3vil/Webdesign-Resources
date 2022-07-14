@@ -289,7 +289,8 @@ a {
 }
 
 .resources__welcome {
-  min-height: 65vh;
+  max-height: 60vh;
+  min-height: 530px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -434,8 +435,8 @@ a {
 }
 
 .home__welcome {
-  max-height: 65vh;
-  min-height: 550px;
+  max-height: 60vh;
+  min-height: 530px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -500,7 +501,8 @@ a {
 }
 
 .inspiration__welcome {
-  min-height: 65vh;
+  max-height: 60vh;
+  min-height: 530px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -624,7 +626,8 @@ a {
 }
 
 .tools__welcome {
-  min-height: 65vh;
+  max-height: 60vh;
+  min-height: 530px;
   display: flex;
   justify-content: center;
   align-items: center;

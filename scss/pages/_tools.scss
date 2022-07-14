@@ -4,7 +4,7 @@
 
 //HR WELCOME SECTIOM
 .tools__welcome {
-    min-height: 65vh;
+    @include mixins.welcomeSection;
     @include mixins.flexCenter(column);
 
     &-left {
