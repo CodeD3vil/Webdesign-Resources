@@ -158,7 +158,7 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 30px;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 .card__button-link:hover {
   color: #ffffff;
@@ -248,7 +248,7 @@ a {
 }
 
 .card-blue {
-  background-image: linear-gradient(110.6492773704deg, #092d60 5.5338541667%, #1f3f6d 96.6796875%);
+  background-image: linear-gradient(110.6492773704deg, #260960 5.5338541667%, #1f356d 96.6796875%);
 }
 
 .card-yellow {
