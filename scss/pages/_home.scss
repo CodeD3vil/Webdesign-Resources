@@ -34,7 +34,7 @@
 
 //NEWS & UPDATES SECTION
 .connect,
-.quickLinks {
+.favorites {
     &__title {
         @include mixins.sectionTitle;
     }
@@ -51,6 +51,6 @@
     }
 }
 
-.quickLinks {
+.favorites {
     @include mixins.sections;
 }

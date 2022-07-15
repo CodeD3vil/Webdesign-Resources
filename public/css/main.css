@@ -473,14 +473,14 @@ a {
 }
 
 .connect__title,
-.quickLinks__title {
+.favorites__title {
   font-weight: 400;
   padding: 1.5rem 0.5rem 0.5rem 0;
   width: 100%;
   border-top: 1px solid rgba(0, 0, 0, 0.09);
 }
 .connect__subtitle,
-.quickLinks__subtitle {
+.favorites__subtitle {
   padding: 0 0 1rem 0;
   font-weight: 300;
   color: #5f6262;
@@ -496,7 +496,7 @@ a {
   border-top: 1px solid rgba(0, 0, 0, 0.09);
 }
 
-.quickLinks {
+.favorites {
   padding: 2.5rem 3rem 2rem 3rem;
 }
 
@@ -878,16 +878,8 @@ a {
     padding-top: 1rem;
   }
 
-  .announcement {
-    display: none !important;
-  }
-
-  .quickLinks {
+  .favorites {
     padding: 1rem 2rem 2rem 2rem;
-  }
-
-  .news {
-    padding: 0 2rem 2rem 2rem;
   }
 }
 @media (max-width: 63em) {
