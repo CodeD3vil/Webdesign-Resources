@@ -26,4 +26,24 @@
     .favorites {
         padding: 1rem 2rem 2rem 2rem;
     }
+
+    .about,
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        padding: 1rem 2rem 2rem 2rem;
+        &__title {
+            padding: 1rem 0 0.5rem 0;
+        }
+        &__subtitle {
+            padding: 1.5rem 0 1rem 0.1rem;
+        }
+
+        &__image {
+            display: block;
+        }
+    }
 }

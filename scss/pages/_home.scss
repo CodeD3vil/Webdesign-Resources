@@ -32,7 +32,7 @@
     }
 }
 
-//NEWS & UPDATES SECTION
+//CONNECT & FAVORITES SECTION
 .connect,
 .favorites {
     &__title {
@@ -45,7 +45,7 @@
 
 .connect {
     @include mixins.sections;
-    // padding-bottom: 3rem;
+
     &__title {
         @include mixins.sectionTitle;
     }
@@ -53,4 +53,21 @@
 
 .favorites {
     @include mixins.sections;
+}
+
+//ABOUT section
+.about {
+    @include mixins.sections;
+    &__subtitle {
+        @include mixins.sectionSubtitle;
+    }
+
+    &__title {
+        @include mixins.sectionTitle;
+    }
+
+    &__image {
+        max-width: 350px;
+        justify-self: center;
+    }
 }

@@ -500,6 +500,25 @@ a {
   padding: 2.5rem 3rem 2rem 3rem;
 }
 
+.about {
+  padding: 2.5rem 3rem 2rem 3rem;
+}
+.about__subtitle {
+  padding: 0 0 1rem 0;
+  font-weight: 300;
+  color: #5f6262;
+}
+.about__title {
+  font-weight: 400;
+  padding: 1.5rem 0.5rem 0.5rem 0;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+}
+.about__image {
+  max-width: 350px;
+  justify-self: center;
+}
+
 .inspiration__welcome {
   max-height: 60vh;
   min-height: 530px;
@@ -880,6 +899,25 @@ a {
 
   .favorites {
     padding: 1rem 2rem 2rem 2rem;
+  }
+
+  .about,
+.grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    padding: 1rem 2rem 2rem 2rem;
+  }
+  .about__title {
+    padding: 1rem 0 0.5rem 0;
+  }
+  .about__subtitle {
+    padding: 1.5rem 0 1rem 0.1rem;
+  }
+  .about__image {
+    display: block;
   }
 }
 @media (max-width: 63em) {
