@@ -18,6 +18,15 @@
     grid-template-columns: 65% 35%;
 }
 
+//2 COLUMN GRID fro ABOUT section on HOME page
+.grid-2-col--reverse {
+    max-width: base.$max-page-width;
+    display: grid;
+    grid-gap: 40px;
+    align-items: center;
+    grid-template-columns: 40% 60%;
+}
+
 //SECTIONS BASE LAYOUT
 .section {
     max-width: base.$max-page-width;
