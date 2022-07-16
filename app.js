@@ -4,14 +4,14 @@ const urlLinks = require("./urlLinks.json");
 const app = express();
 app.set("view engine", "ejs");
 
+app.listen(80, () => {
+    console.log(`Listening on port ${80}`);
+});
+
 //root directory
 app.use(express.static(`${__dirname}`));
 //public files directory
 app.use(express.static(`${__dirname}/public`));
-
-app.listen(80, () => {
-    console.log(`Listening on port ${80}`);
-});
 
 app.get("/", (request, response) => {
     response.render(`${path.join(__dirname, "./views/pages/index.ejs")}`, { urlLinks });
