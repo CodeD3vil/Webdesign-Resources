@@ -30,9 +30,17 @@
         @include mixins.flexCenter(row);
     }
 
-    &__profile-picture {
+    &__logo {
         width: 35px;
         margin-top: 0.25rem;
+        margin-right: 2.3rem;
+        transition: all 0.3s;
+
+        &--link {
+            :hover {
+                transform: scale(1.1);
+            }
+        }
     }
 
     &--link {

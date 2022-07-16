@@ -40,14 +40,12 @@
 
 //WELCOME (hero) SECTIONS
 @mixin welcomeSection {
-    max-height: 60vh;
-    min-height: 530px;
+    max-height: 80vh;
 }
 
 @mixin welcomeLeft {
     align-items: flex-start;
-    padding: 5rem 0 5rem 4.3rem;
-    height: 100%;
+    padding: 5rem 0 2rem 4.3rem;
 }
 
 @mixin welcomeSubtitle {
