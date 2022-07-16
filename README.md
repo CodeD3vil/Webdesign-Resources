@@ -1,4 +1,4 @@
-# ISC Intranet
+# Web Design Resources
 
 This a fully responsive website.
 
