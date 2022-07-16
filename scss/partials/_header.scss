@@ -30,9 +30,17 @@
         @include mixins.flexCenter(row);
     }
 
-    &__profile-picture {
+    &__logo {
         width: 35px;
         margin-top: 0.25rem;
+        margin-right: 2.3rem;
+        transition: all 0.3s;
+
+        &--link {
+            :hover {
+                transform: scale(1.1);
+            }
+        }
     }
 
     &--link {
@@ -63,6 +71,7 @@
 }
 
 .header-search {
+    margin-right: -0.3rem;
     background-color: transparent;
     padding: 0.3em 1em;
     border: 1px solid colors.$color-search-btn-border;
