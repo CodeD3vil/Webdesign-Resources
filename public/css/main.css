@@ -472,6 +472,10 @@ a {
   width: 60%;
 }
 
+.connect,
+.favorites {
+  padding: 2.5rem 3rem 2rem 3rem;
+}
 .connect__title,
 .favorites__title {
   font-weight: 400;
@@ -484,20 +488,6 @@ a {
   padding: 0 0 1rem 0;
   font-weight: 300;
   color: #5f6262;
-}
-
-.connect {
-  padding: 2.5rem 3rem 2rem 3rem;
-}
-.connect__title {
-  font-weight: 400;
-  padding: 1.5rem 0.5rem 0.5rem 0;
-  width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.09);
-}
-
-.favorites {
-  padding: 2.5rem 3rem 2rem 3rem;
 }
 
 .about {
@@ -516,19 +506,19 @@ a {
 .about__left {
   padding: 5rem 4rem 3rem 5rem;
 }
-.about__subtitle {
-  padding: 0 0 1rem 0;
-  font-weight: 300;
-  color: #5f6262;
-  width: 85%;
-  padding-top: 1em;
-}
 .about__title {
   font-weight: 400;
   padding: 1.5rem 0.5rem 0.5rem 0;
   width: 100%;
   border-top: 1px solid rgba(0, 0, 0, 0.09);
   border-top: none;
+}
+.about__subtitle {
+  padding: 0 0 1rem 0;
+  font-weight: 300;
+  color: #5f6262;
+  width: 85%;
+  padding-top: 1em;
 }
 .about__image {
   position: relative;
@@ -831,7 +821,7 @@ a {
     height: 11400px;
     z-index: 10;
     /* inset is a shorthand for top, right, bottom, left for positioning */
-    inset: 0 0 0 32%;
+    inset: 0 0 0 63%;
     position: fixed;
     flex-direction: column;
     align-items: flex-start;
@@ -882,7 +872,7 @@ a {
 
   /* if the data-visible attribute is true the menu will become visible by moving into the view */
   .navigation[data-visible=true] {
-    transform: translateX(20%);
+    transform: translateX(-25%);
     opacity: 1;
   }
 
@@ -936,8 +926,13 @@ a {
     padding-top: 1rem;
   }
 
-  .favorites {
+  .favorites,
+.connect {
     padding: 1rem 2rem 2rem 2rem;
+  }
+  .favorites__subtitle,
+.connect__subtitle {
+    width: 100%;
   }
 
   .about,
@@ -949,14 +944,29 @@ a {
   .about {
     padding: 1rem 2rem 2rem 2rem;
   }
+  .about__content {
+    grid-template-columns: 1fr;
+  }
+  .about__right {
+    grid-row: 1;
+  }
+  .about__left {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .about__title {
     padding: 1rem 0 0.5rem 0;
   }
   .about__subtitle {
     padding: 1.5rem 0 1rem 0.1rem;
+    width: 100%;
   }
   .about__image {
     display: block;
+    max-width: 300px;
+    border-radius: 50%;
   }
 }
 @media (max-width: 63em) {
@@ -1096,6 +1106,9 @@ a {
     padding-bottom: 1.1rem;
   }
 
+  .card {
+    min-width: 310px;
+  }
   .card__subtitle {
     min-height: 60px;
   }

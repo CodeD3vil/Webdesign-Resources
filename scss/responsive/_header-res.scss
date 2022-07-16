@@ -25,7 +25,7 @@
         height: 11400px;
         z-index: 10;
         /* inset is a shorthand for top, right, bottom, left for positioning */
-        inset: 0 0 0 32%;
+        inset: 0 0 0 63%;
         position: fixed;
         flex-direction: column;
         align-items: flex-start;
@@ -76,7 +76,7 @@
 
     /* if the data-visible attribute is true the menu will become visible by moving into the view */
     .navigation[data-visible="true"] {
-        transform: translateX(20%);
+        transform: translateX(-25%);
         opacity: 1;
     }
 

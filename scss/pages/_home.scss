@@ -35,24 +35,13 @@
 //CONNECT & FAVORITES SECTION
 .connect,
 .favorites {
+    @include mixins.sections;
     &__title {
         @include mixins.sectionTitle;
     }
     &__subtitle {
         @include mixins.sectionSubtitle;
     }
-}
-
-.connect {
-    @include mixins.sections;
-
-    &__title {
-        @include mixins.sectionTitle;
-    }
-}
-
-.favorites {
-    @include mixins.sections;
 }
 
 //ABOUT section
@@ -72,15 +61,15 @@
         padding: 5rem 4rem 3rem 5rem;
     }
 
+    &__title {
+        @include mixins.sectionTitle;
+        border-top: none;
+    }
+
     &__subtitle {
         @include mixins.sectionSubtitle;
         width: 85%;
         padding-top: 1em;
-    }
-
-    &__title {
-        @include mixins.sectionTitle;
-        border-top: none;
     }
 
     &__image {
