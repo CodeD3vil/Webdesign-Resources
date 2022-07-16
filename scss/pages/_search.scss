@@ -37,7 +37,7 @@
             @include mixins.flexCenter(row);
             position: relative;
             padding-top: 4rem;
-            padding-bottom: 2rem;
+            padding-bottom: 1rem;
             width: 100%;
 
             &--icon {
@@ -53,7 +53,7 @@
     &__results {
         min-width: 63%;
         min-height: 60vh;
-        padding-top: 2rem;
+        padding-top: 1rem;
         padding-bottom: 2rem;
     }
 }
@@ -67,9 +67,11 @@
     transition: all 0.3s;
     display: block;
     color: colors.$text-color-dark-grey;
+    border-radius: 5px;
 
     &:hover {
-        background-color: colors.$color-light-blue;
+        // background-color: colors.$color-mobile-menu-hover;
+        background-color: colors.$color-search-links-hover;
         color: colors.$text-color-white;
     }
 }
