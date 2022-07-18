@@ -249,8 +249,9 @@ a {
 }
 
 .footer {
+  width: 100%;
   position: relative;
-  padding: 1rem 7rem 2rem 6.6rem;
+  padding: 1rem 3rem 2rem 3rem;
   background-color: #151b22;
   display: flex;
   justify-content: space-between;
@@ -263,7 +264,6 @@ a {
   font-size: clamp(0.3rem, 1.5vw, 0.7rem);
 }
 .footer__nav {
-  max-width: 1000px;
   margin-left: 2.5rem;
   display: flex;
   justify-content: center;
@@ -352,6 +352,7 @@ a {
 
 .header-primary,
 .header__nav {
+  padding: 0 3rem 0 3rem;
   height: 80px;
   margin: 0 auto;
   background-color: #151b22;
@@ -363,8 +364,7 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 0 3rem 0 3rem;
-  max-width: 1600px;
+  width: 100%;
 }
 .header__nav-left {
   display: flex;

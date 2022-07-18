@@ -2,8 +2,9 @@
 @use "../colors";
 
 .footer {
+    width: 100%;
     position: relative;
-    padding: 1rem 7rem 2rem 6.6rem;
+    padding: 1rem 3rem 2rem 3rem;
     background-color: colors.$color-footer;
     @include mixins.flexSpaceBetween(row);
 
@@ -14,7 +15,7 @@
     }
 
     &__nav {
-        max-width: 1000px;
+        
         margin-left: 2.5rem;
         @include mixins.flexCenter(row);
 
