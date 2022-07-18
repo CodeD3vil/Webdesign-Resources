@@ -1,6 +1,6 @@
 # Web Design Resources
 
-This a fully responsive website.
+This a fully responsive websitec with my favortite online resources and tools I use to desiogn and develop websites.
 
 ## Technologies & Dependencies
 
