@@ -9,17 +9,19 @@ The website is built with these technologies and dependencies.
 ### Software used
 
 * <b>Required</b>
-  * [VS Code editor](https://code.visualstudio.com/) - all coding was done with this software
+
   * [Node JS](https://nodejs.org/en/) - runs the server side of the website.
   * [Git](https://git-scm.com/) - Essential part of any project, code version control system
 
 * <b>Optional</b>
+  * [VS Code editor](https://code.visualstudio.com/) - all coding was done with this software, but if you preffer a different code editor that is up to you
   * [Figma](https://www.figma.com/) - UI & UX design tool
 
 #### VS Code extensions
 
 * <b>Required</b>
   * [Node.js Extension Pack](https://marketplace.visualstudio.com/items?itemName=waderyan.nodejs-extension-pack) contains all neccessary npm extensions
+  * [dotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) - Support for dotenv file syntax
   * [dotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) - Support for dotenv file syntax
 
 * <b>Optional</b>
