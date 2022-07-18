@@ -41,6 +41,10 @@
     .about {
         padding: 1rem 2rem 2rem 2rem;
 
+        &__top-border {
+            margin-bottom: 1rem;
+        }
+
         &__content {
             grid-template-columns: 1fr;
         }
@@ -61,7 +65,7 @@
         }
 
         &__subtitle {
-            padding: 1.5rem 0 1rem 0.1rem;
+            padding: 0.5rem 0 1rem 0.1rem;
             width: 100%;
         }
 

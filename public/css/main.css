@@ -84,12 +84,12 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(1.3rem, 1.9vw, 2.7rem);
+  font-size: clamp(1.3rem, 1.9vw, 2rem);
   font-family: "Open Sans", sans-serif;
 }
 
 h3 {
-  font-size: clamp(1rem, 1.2vw, 2rem) !important;
+  font-size: clamp(1rem, 1.5vw, 1.3rem) !important;
   line-height: 1.6;
 }
 
@@ -487,9 +487,9 @@ a {
 
 .about {
   padding: 2.5rem 3rem 2rem 3rem;
-  padding-bottom: 0;
 }
 .about__top-border {
+  margin-bottom: 3rem;
   border-top: 1px solid rgba(0, 0, 0, 0.09);
 }
 .about__right {
@@ -499,7 +499,7 @@ a {
   flex-direction: column;
 }
 .about__left {
-  padding: 5rem 4rem 3rem 5rem;
+  padding: 2rem 1rem 1rem 0rem;
 }
 .about__title {
   font-weight: 400;
@@ -519,7 +519,7 @@ a {
   position: relative;
   width: 100%;
   overflow: hidden;
-  max-width: 330px;
+  max-width: 350px;
   border-radius: 3px;
   box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
   transition: all 1s;
@@ -932,6 +932,9 @@ a {
   .about {
     padding: 1rem 2rem 2rem 2rem;
   }
+  .about__top-border {
+    margin-bottom: 1rem;
+  }
   .about__content {
     grid-template-columns: 1fr;
   }
@@ -948,7 +951,7 @@ a {
     padding: 1rem 0 0.5rem 0;
   }
   .about__subtitle {
-    padding: 1.5rem 0 1rem 0.1rem;
+    padding: 0.5rem 0 1rem 0.1rem;
     width: 100%;
   }
   .about__image {
