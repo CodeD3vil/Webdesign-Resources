@@ -1,11 +1,15 @@
 const express = require("express");
 const path = require("path");
 const urlLinks = require("./urlLinks.json");
+const dotenv = require("dotenv");
+dotenv.config({ path: "./config.env" });
 const app = express();
 app.set("view engine", "ejs");
 
-app.listen(80, () => {
-    console.log(`Listening on port ${80}`);
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+    console.log(`Listening on port ${port}`);
 });
 
 //root directory
