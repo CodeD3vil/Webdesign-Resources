@@ -1069,6 +1069,15 @@ a {
     font-size: 0.8rem;
     width: 120%;
   }
+
+  .toTop--link {
+    margin-right: -1.5rem;
+    border-radius: 100px;
+    transition: all 0.3s;
+    border: 1px solid rgba(155, 155, 155, 0.5);
+    padding: 0.6rem 0.9rem;
+    float: right;
+  }
 }
 @media (max-width: 63em) {
   .footer {
