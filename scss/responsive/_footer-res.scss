@@ -4,9 +4,11 @@
 
 @media (max-width: base.$mobile-break) {
     .footer {
+        display: none;
         padding: 0.5rem 0 1.5rem 0;
 
         &__wave {
+            display: none;
             height: 6vh;
         }
         &__disclaimer {

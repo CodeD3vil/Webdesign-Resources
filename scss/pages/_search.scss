@@ -3,13 +3,19 @@
 @use "../typography";
 
 //SEARCH PAGE
+body#search-page {
+    background-color: colors.$color-search;
+}
+
 .search {
+    min-height: 61vh;
     @include mixins.flexCenter(column);
+    justify-content: flex-start;
 
     &-bg {
         @include mixins.flexCenter(column);
         width: 100%;
-        background-color: colors.$bg-color;
+        background-color: colors.$color-search;
     }
 
     &__bar {
@@ -17,7 +23,7 @@
 
         &-term {
             width: 100%;
-            padding: 17px 9px 17px 50px;
+            padding: 20px 9px 20px 50px;
             height: 20px;
             border-radius: 50px;
             outline: none;
@@ -36,7 +42,7 @@
         &-element {
             @include mixins.flexCenter(row);
             position: relative;
-            padding-top: 4rem;
+            padding-top: 3rem;
             padding-bottom: 1rem;
             width: 100%;
 
@@ -51,32 +57,33 @@
 //SEARCH RESULT SECTION
 .search {
     &__results {
-        min-width: 63%;
-        min-height: 60vh;
+        min-width: 60%;
         padding-top: 1rem;
-        padding-bottom: 2rem;
     }
 }
 
 //SERACH RESULTS SECTION links
 .match {
-    margin-bottom: 0.5rem;
-    padding: 0.3rem 0.6rem;
+    padding: 0.5rem 0.6rem;
     width: 100%;
-    background-color: colors.$color-search-result-bg;
     transition: all 0.3s;
     display: block;
-    color: colors.$text-color-dark-grey;
+    color: colors.$text-color-medium-grey;
+    border-bottom: 1px solid colors.$search-match-underline;
     border-radius: 5px;
 
     &:hover {
-        // background-color: colors.$color-mobile-menu-hover;
-        background-color: colors.$color-search-links-hover;
-        color: colors.$text-color-white;
+        border-bottom: 1px solid colors.$color-search;
+        background-color: colors.$search-match-hover;
     }
 }
 
 //BACK TO TOP BUTTON
 .toTop {
+    display: none;
     margin-top: 2rem;
+}
+
+#footer {
+    justify-self: flex-start;
 }

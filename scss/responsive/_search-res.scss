@@ -4,31 +4,33 @@
 
 @media (max-width: base.$mobile-break) {
     .search {
+        width: 100%;
         padding: 0;
+        @include mixins.flexCenter(column);
+        justify-content: flex-start;
+
         &__bar {
-            padding-top: 2rem;
             width: 76%;
             font-size: 0.4rem;
 
             &-element {
-                padding-top: 0.8rem;
-                margin-right: 0.1rem;
+                padding-top: 1rem;
             }
         }
 
-        &__list {
-            width: 100%;
-            @include mixins.flexCenter(column);
+        &__results {
+            min-width: 75%;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 3rem;
         }
 
-        &__results {
-            padding-top: 0;
-            padding-bottom: 1rem;
+        &__list {
+            text-align: center;
         }
     }
 
     .match {
         font-size: 0.8rem;
-        width: 120%;
     }
 }

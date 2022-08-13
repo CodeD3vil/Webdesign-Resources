@@ -5,12 +5,11 @@
         <script src="../../public/js/search.js" defer></script>
         <%- include('../partials/head.ejs') %>
     </head>
-    <body>
+    <body id="search-page">
+        <!-- HEADER start -->
+        <%- include('../partials/header.ejs') %>
+        <!-- HEADER end-->
         <main>
-            <!-- HEADER start -->
-            <%- include('../partials/header.ejs') %>
-            <!-- HEADER end-->
-
             <!-- SEARCH SECTION start -->
             <section class="search section" id="search">
                 <!-- SEARCH BAR start -->
@@ -23,7 +22,7 @@
                                 class="search__bar-term"
                                 id="search_bar"
                                 onkeyup="searchLinks()"
-                                placeholder="What are you looking for?"
+                                placeholder="Search the entire collection here."
                             />
                             <img src="../public/img/search.svg" alt="search icon" class="search__bar-element--icon" />
                         </div>
@@ -40,13 +39,13 @@
                         </a>
                     </div>
                 </div>
+
                 <!-- SEARCH RESULTS end -->
             </section>
             <!-- SEARCH SECTION end-->
+            <!-- FOOTER start-->
+            <div id="footer"><%- include('../partials/footer.ejs') %></div>
+            <!-- FOOTER end-->
         </main>
-
-        <!-- FOOTER start-->
-        <div id="footer"><%- include('../partials/footer.ejs') %></div>
-        <!-- FOOTER end-->
     </body>
 </html>
