@@ -30,6 +30,12 @@
         "on_the_page": "false"
     },
     {
+        "name": "Animations_Generator",
+        "link": "https://animista.net/",
+        "category": "css generator animations keyframes shadows",
+        "on_the_page": "false"
+    },
+    {
         "name": "Animate_Keyframes",
         "link": "https://keyframes.app/animate/",
         "category": "css generator animations keyframes shadows",
@@ -60,6 +66,12 @@
         "on_the_page": "false"
     },
     {
+        "name": "Border_Image_Generator",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-image_generator",
+        "category": "css generator border images",
+        "on_the_page": "false"
+    },
+    {
         "name": "Blob_Maker",
         "link": "https://www.blobmaker.app/",
         "category": "css generator svg",
@@ -69,6 +81,12 @@
         "name": "CSS_Gradient_Generator",
         "link": "http://ourownthing.co.uk/gradpad.html",
         "category": "css generator gradients colors",
+        "on_the_page": "true"
+    },
+    {
+        "name": "CSS_Filter_Generator",
+        "link": "https://www.cssfilters.co/",
+        "category": "css generator filter",
         "on_the_page": "true"
     },
     {
@@ -96,8 +114,20 @@
         "on_the_page": "true"
     },
     {
+        "name": "CodePen",
+        "link": "https://codepen.io/",
+        "category": "html inspiration css",
+        "on_the_page": "false"
+    },
+    {
         "name": "Color_Blender",
         "link": "https://meyerweb.com/eric/tools/color-blend/#::1:hex",
+        "category": "colors generator palettes",
+        "on_the_page": "false"
+    },
+    {
+        "name": "Color_Hunt",
+        "link": "https://colorhunt.co/",
         "category": "colors generator palettes",
         "on_the_page": "false"
     },
@@ -106,6 +136,12 @@
         "link": "https://mycolor.space/?hex=%23845EC2&sub=1",
         "category": "colors generator palettes gradients",
         "on_the_page": "true"
+    },
+    {
+        "name": "Color_Thief",
+        "link": "https://lokeshdhakar.com/projects/color-thief/",
+        "category": "colors generator palettes images",
+        "on_the_page": "false"
     },
     {
         "name": "Color_Wheel",
@@ -117,6 +153,12 @@
         "name": "ColorZilla",
         "link": "https://www.colorzilla.com/chrome/",
         "category": "colors extensions picker",
+        "on_the_page": "false"
+    },
+    {
+        "name": "CSS_Matic",
+        "link": "https://www.cssmatic.com/box-shadow",
+        "category": "css generator shadows",
         "on_the_page": "false"
     },
     {
@@ -180,6 +222,12 @@
         "on_the_page": "false"
     },
     {
+        "name": "Font_Size_Calculator",
+        "link": "https://websemantics.uk/tools/responsive-font-calculator/",
+        "category": "fonts css calculator",
+        "on_the_page": "false"
+    },
+    {
         "name": "Font_Squirrel",
         "link": "https://www.fontsquirrel.com/fonts/aileron",
         "category": "fonts inspiration",
@@ -222,6 +270,12 @@
         "on_the_page": "false"
     },
     {
+        "name": "Generator_Tools",
+        "link": "https://www.developmenttools.com/generator-tools/",
+        "category": "generator",
+        "on_the_page": "false"
+    },
+    {
         "name": "Google_Fonts_Pairs",
         "link": "https://www.fontpair.co/",
         "category": "inspiration fonts",
@@ -261,6 +315,12 @@
         "name": "IcoMoon",
         "link": "https://icomoon.io/",
         "category": "icons",
+        "on_the_page": "false"
+    },
+    {
+        "name": "Icon_Finder",
+        "link": "https://www.iconfinder.com/",
+        "category": "icons illustrations 3d",
         "on_the_page": "false"
     },
     {
