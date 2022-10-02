@@ -8,7 +8,9 @@
         </p>
         <div class="card__button-area">
             <button class="card__button button button-yellow">
-                <a class="card__button-link" href="<%=urlLinks.Optimizilla %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Optimizilla') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -24,7 +26,10 @@
         </p>
         <div class="card__button-area">
             <button class="card__button button button-yellow">
-                <a class="card__button-link" href="<%=urlLinks.Promo_Image_Resizer %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Promo_Image_Resizer') {
+                %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -40,7 +45,9 @@
         </p>
         <div class="card__button-area">
             <button class="card__button button button-yellow">
-                <a class="card__button-link" href="<%=urlLinks.Resize_Pixel %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Resize_Pixel') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
