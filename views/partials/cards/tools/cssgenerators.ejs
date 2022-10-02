@@ -6,7 +6,10 @@
         <p class="card__subtitle">Generate amazing gradients on the fly and use it directly as CSS code.</p>
         <div class="card__button-area">
             <button class="card__button button button-blue">
-                <a class="card__button-link" href="<%=urlLinks.CSS_Gradient_Generator %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'CSS_Gradient_Generator')
+                { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -20,7 +23,10 @@
         <p class="card__subtitle">Simple yet powerfull CSS pattern generator for your website background.</p>
         <div class="card__button-area">
             <button class="card__button button button-blue">
-                <a class="card__button-link" href="<%=urlLinks.CSS_Pattern_Generator %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'CSS_Pattern_Generator')
+                { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -34,7 +40,10 @@
         <p class="card__subtitle">Generate custom cubic-bezier curves for unique animations.</p>
         <div class="card__button-area">
             <button class="card__button button button-blue">
-                <a class="card__button-link" href="<%=urlLinks.Cubic_Bezier_Generator %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Cubic_Bezier_Generator')
+                { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>

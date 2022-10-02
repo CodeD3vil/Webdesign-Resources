@@ -6,8 +6,8 @@
 
     <body>
         <div class="search__list" id="search__list">
-            <% for (const item in urlLinks) { %>
-            <a class="match" href="<%= urlLinks[item] %>" target="blank"><%= item.replaceAll("_", " ") %></a>
+            <% for (let i = 0; i < urlLinks.length; i++) { %>
+            <a class="match" href="<%=urlLinks[i].link %>" data-category="<%=urlLinks[i].category %>" target="blank"><%= urlLinks[i].name.replaceAll("_", " ") %></a>
             <% } %>
         </div>
     </body>

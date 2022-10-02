@@ -6,7 +6,9 @@
         <p class="card__subtitle">Mix-&-match illustrations of people with a design library.</p>
         <div class="card__button-area">
             <button class="card__button button button-blue">
-                <a class="card__button-link" href="<%=urlLinks.Humaaans %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Humaaans') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -19,7 +21,9 @@
         <p class="card__subtitle">Use the on-the-fly color image generation to match your brand identity..</p>
         <div class="card__button-area">
             <button class="card__button button button-blue">
-                <a class="card__button-link" href="<%=urlLinks.unDraw %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'unDraw') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -35,7 +39,9 @@
         </p>
         <div class="card__button-area">
             <button class="card__button button button-blue">
-                <a class="card__button-link" href="<%=urlLinks.Ouch %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Ouch') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>

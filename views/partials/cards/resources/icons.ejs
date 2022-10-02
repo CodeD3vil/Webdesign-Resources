@@ -6,7 +6,9 @@
         <p class="card__subtitle">My favorite source for icons that also has a large selection of free animations.</p>
         <div class="card__button-area">
             <button class="card__button button button-blue">
-                <a class="card__button-link" href="<%=urlLinks.Icon_Scout %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Icon_Scout') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -20,7 +22,9 @@
         <p class="card__subtitle">Another great place with many free and premium icons to download and use.</p>
         <div class="card__button-area">
             <button class="card__button button button-blue">
-                <a class="card__button-link" href="<%=urlLinks.Endless_Icons %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Endless_Icons') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -36,7 +40,9 @@
         </p>
         <div class="card__button-area">
             <button class="card__button button button-blue">
-                <a class="card__button-link" href="<%=urlLinks.IconsDB %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'IconsDB') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>

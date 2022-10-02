@@ -6,7 +6,9 @@
         <p class="card__subtitle">Go crazy with this color wheel tool from Adobe. Endless possibilities.</p>
         <div class="card__button-area">
             <button class="card__button button button-cyan">
-                <a class="card__button-link" href="<%=urlLinks.Color_Wheel %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Color_Wheel') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -19,7 +21,9 @@
         <p class="card__subtitle">Perfect place to generate amazing color palettes. Just enter a color and go!</p>
         <div class="card__button-area">
             <button class="card__button button button-cyan">
-                <a class="card__button-link" href="<%=urlLinks.Color_Space %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Color_Space') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -35,7 +39,9 @@
         </p>
         <div class="card__button-area">
             <button class="card__button button button-cyan">
-                <a class="card__button-link" href="<%=urlLinks.Huemint %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Huemint') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>

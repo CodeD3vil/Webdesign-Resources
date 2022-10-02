@@ -8,7 +8,9 @@
         </p>
         <div class="card__button-area">
             <button class="card__button button button-cyan">
-                <a class="card__button-link" href="<%=urlLinks.Grammar_Checker %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Grammar_Checker') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -23,7 +25,10 @@
         </p>
         <div class="card__button-area">
             <button class="card__button button button-cyan">
-                <a class="card__button-link" href="<%=urlLinks.Testimonials_Generator %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Testimonials_Generator')
+                { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -37,7 +42,10 @@
         <p class="card__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         <div class="card__button-area">
             <button class="card__button button button-cyan">
-                <a class="card__button-link" href="<%=urlLinks.Lorem_Ipsum_Generator %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Lorem_Ipsum_Generator')
+                { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>

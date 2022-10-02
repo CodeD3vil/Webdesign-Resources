@@ -6,7 +6,9 @@
         <p class="card__subtitle">Very large selection of free fonts from Google. This is always my first choice.</p>
         <div class="card__button-area">
             <button class="card__button button button-yellow">
-                <a class="card__button-link" href="<%=urlLinks.Google_Fonts %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Google_Fonts') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -22,7 +24,10 @@
         </p>
         <div class="card__button-area">
             <button class="card__button button button-yellow">
-                <a class="card__button-link" href="<%=urlLinks.Fonts_Typespiration %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Fonts_Typespiration') {
+                %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>
@@ -36,7 +41,9 @@
         <p class="card__subtitle">See how different fonts look like in a real project like books or posters.</p>
         <div class="card__button-area button-area">
             <button class="card__button button button-yellow">
-                <a class="card__button-link" href="<%=urlLinks.Fonts_In_Use %>" target="blank">go</a>
+                <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name === 'Fonts_In_Use') { %>
+                <a class="card__button-link" href="<%=urlLinks[i].link %>" target="blank">Go there</a>
+                <% } %> <%} %>
             </button>
         </div>
     </div>

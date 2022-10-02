@@ -10,7 +10,10 @@ const searchLinks = () => {
 
     for (i = 0; i < match.length; i++) {
         if (input === "") list.style.display = "none";
-        if (match[i].innerHTML.toLowerCase().includes(input) && input !== "") {
+        if (
+            (match[i].innerHTML.toLowerCase().includes(input) && input !== "") ||
+            (match[i].getAttribute("data-category").toLowerCase().includes(input) && input !== "")
+        ) {
             list.style.display = "block";
             match[i].style.display = "list-item";
         } else {
