@@ -11,6 +11,7 @@ body#search-page {
     min-height: 61vh;
     @include mixins.flexCenter(column);
     justify-content: flex-start;
+    width: 100%;
 
     &-bg {
         @include mixins.flexCenter(column);
@@ -54,27 +55,52 @@ body#search-page {
     }
 }
 
-//SEARCH RESULT SECTION
-.search {
-    &__results {
-        min-width: 60%;
-        padding-top: 1rem;
-    }
-}
-
 //SERACH RESULTS SECTION links
-.match {
-    padding: 0.5rem 0.6rem;
-    width: 100%;
-    transition: all 0.3s;
-    display: block;
-    color: colors.$text-color-medium-grey;
-    border-bottom: 1px solid colors.$search-match-underline;
-    border-radius: 5px;
+.search {
+    &__list {
+        margin-top: 4rem;
+    }
 
-    &:hover {
-        border-bottom: 1px solid colors.$color-search;
-        background-color: colors.$search-match-hover;
+    &__results {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    &__result {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.8rem 0;
+        border-bottom: 1px solid colors.$search-match-underline;
+        margin-bottom: 1rem;
+
+        &-title {
+            color: colors.$search-result-title;
+        }
+
+        &-link {
+            margin-bottom: 0.2rem;
+            color: colors.$search-result-link;
+            text-align: left;
+            white-space: pre-line;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            -ms-word-break: break-all;
+            /* This is the dangerous one in WebKit, as it breaks things wherever */
+            word-break: break-all;
+            /* Instead use this non-standard one: */
+            word-break: break-word;
+            /* Adds a hyphen where the word breaks, if supported (No Blink) */
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+
+        &-description {
+            text-align: left;
+            color: colors.$search-result-description;
+        }
     }
 }
 
