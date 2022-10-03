@@ -10,6 +10,7 @@
 /* BUTTONS outline */
 /* SCROLLBAR colors*/
 /* SEARCHBAR colors*/
+/* SEARCH RESULTS colors*/
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -598,6 +599,7 @@ body#search-page {
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+  width: 100%;
 }
 .search-bg {
   display: flex;
@@ -641,23 +643,45 @@ body#search-page {
   left: 15px;
 }
 
+.search__list {
+  margin-top: 4rem;
+}
 .search__results {
-  min-width: 60%;
-  padding-top: 1rem;
+  margin: 0 auto;
+  width: 80%;
 }
-
-.match {
-  padding: 0.5rem 0.6rem;
+.search__result {
   width: 100%;
-  transition: all 0.3s;
-  display: block;
-  color: #c4c4c4;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.8rem 0;
   border-bottom: 1px solid rgba(230, 230, 230, 0.109);
-  border-radius: 5px;
+  margin-bottom: 1rem;
 }
-.match:hover {
-  border-bottom: 1px solid #151b22;
-  background-color: rgba(22, 86, 109, 0.31);
+.search__result-title {
+  color: wheat;
+}
+.search__result-link {
+  margin-bottom: 0.2rem;
+  color: whitesmoke;
+  text-align: left;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.search__result-description {
+  text-align: left;
+  color: grey;
 }
 
 .toTop {
@@ -1067,14 +1091,43 @@ body#search-page {
   .search__bar-element {
     padding-top: 1rem;
   }
+
   .search__results {
-    min-width: 75%;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3rem;
+    width: 100%;
   }
   .search__list {
-    text-align: center;
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+  }
+  .search__result {
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.109);
+    margin-bottom: 1rem;
+  }
+  .search__result-link {
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    color: whitesmoke;
+  }
+  .search__result-description {
+    text-align: left;
+    color: gray;
   }
 
   .match {

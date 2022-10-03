@@ -7,7 +7,14 @@
     <body>
         <div class="search__list" id="search__list">
             <% for (let i = 0; i < urlLinks.length; i++) { %>
-            <a class="match" href="<%=urlLinks[i].link %>" data-category="<%=urlLinks[i].category %>" target="blank"><%= urlLinks[i].name.replaceAll("_", " ") %></a>
+            <div class="search__result" data-match="<%=urlLinks[i].link %>" data-category="<%=urlLinks[i].category %>">
+                <a class="search__result-title" href="<%=urlLinks[i].link %>" target="blank"
+                    ><%= urlLinks[i].name.replaceAll("_", " ") %></a
+                >
+                <a class="search__result-link" href="<%=urlLinks[i].link %>"><%=urlLinks[i].link %></a>
+                <a class="search__result-description" href="<%=urlLinks[i].link %>"><%=urlLinks[i].description %></a>
+            </div>
+
             <% } %>
         </div>
     </body>
