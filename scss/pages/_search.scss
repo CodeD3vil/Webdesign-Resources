@@ -8,7 +8,7 @@ body#search-page {
 }
 
 .search {
-    min-height: 61vh;
+    min-height: 67.4vh;
     @include mixins.flexCenter(column);
     justify-content: flex-start;
     width: 100%;
@@ -75,7 +75,12 @@ body#search-page {
         margin-bottom: 1rem;
 
         &-title {
+            transition: all 0.3s;
             color: colors.$search-result-title;
+
+            &:hover {
+                color: colors.$search-result-title-hover;
+            }
         }
 
         &-link {
@@ -95,11 +100,21 @@ body#search-page {
             -moz-hyphens: auto;
             -webkit-hyphens: auto;
             hyphens: auto;
+            transition: all 0.3s;
+
+            &:hover {
+                color: colors.$search-result-link-hover;
+            }
         }
 
         &-description {
             text-align: left;
             color: colors.$search-result-description;
+            transition: all 0.3s;
+
+            &:hover {
+                color: colors.$search-result-description-hover;
+            }
         }
     }
 }
