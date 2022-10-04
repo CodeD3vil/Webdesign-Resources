@@ -205,7 +205,7 @@ a {
 .card__title {
   height: 100%;
   color: #ffffff;
-  font-size: clamp(1rem, 4vw, 1.3rem);
+  font-size: clamp(1.2rem, 4vw, 1.5rem);
 }
 .card__subtitle {
   color: #3f4343;
@@ -593,7 +593,7 @@ body#search-page {
 }
 
 .search {
-  min-height: 67.4vh;
+  min-height: 51.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -606,11 +606,14 @@ body#search-page {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  align-items: center;
+  height: 150px;
   width: 100%;
   background-color: #151b22;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.109);
 }
 .search__bar {
-  min-width: 63%;
+  min-width: 50%;
 }
 .search__bar-term {
   width: 100%;
@@ -634,7 +637,7 @@ body#search-page {
   align-items: center;
   flex-direction: row;
   position: relative;
-  padding-top: 3rem;
+  margin-top: 0.5rem;
   padding-bottom: 1rem;
   width: 100%;
 }
@@ -643,6 +646,26 @@ body#search-page {
   left: 15px;
 }
 
+.search__terms {
+  width: 80%;
+}
+.search__terms-text {
+  text-align: center;
+  color: #5f6262;
+  font-size: 0.8rem;
+}
+.search__terms-text--red {
+  color: #ab4646;
+}
+.search__terms-text--green {
+  color: #449530;
+}
+.search__terms-text--blue {
+  color: #3333a4;
+}
+.search__terms-text--purple {
+  color: #ad3bad;
+}
 .search__list {
   margin-top: 4rem;
 }
@@ -869,7 +892,7 @@ body#search-page {
     transition: all 0.4s ease-out;
     /* by default the navigation is out of view hidden outside the page */
     transform: translateX(75%);
-    background-color: rgba(30, 39, 60, 0.648);
+    background-color: rgba(30, 39, 60, 0.9);
     backdrop-filter: blur(7px);
     display: block;
     opacity: 0;
@@ -1096,14 +1119,17 @@ body#search-page {
     flex-direction: column;
     justify-content: flex-start;
   }
+  .search__terms-text {
+    color: #5f6262;
+    font-size: 0.7rem;
+  }
   .search__bar {
-    width: 76%;
+    width: 85%;
     font-size: 0.4rem;
   }
   .search__bar-element {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
   }
-
   .search__results {
     width: 100%;
   }
