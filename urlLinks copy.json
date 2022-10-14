@@ -2,22 +2,22 @@
     {
         "name": "Adobe_Fonts",
         "link": "https://www.adobe.com/products/photoshop.html/",
-        "category": ["fonts adobe"]
+        "category": ["fonts, adobe"]
     },
     {
         "name": "Adobe_Photoshop",
         "link": "https://fonts.adobe.com/",
-        "category": ["adobe editor software"]
+        "category": ["adobe, editor, software"]
     },
     {
         "name": "Adobe_XD",
         "link": "https://www.adobe.com/products/xd.html",
-        "category": ["software adobe editor"]
+        "category": ["software, adobe, editor"]
     },
     {
         "name": "Affinity_Designer",
         "link": "https://affinity.serif.com/en-us/designer/",
-        "category": ["software editor"]
+        "category": ["software, editor"]
     },
     {
         "name": "All_Icons",
@@ -27,27 +27,27 @@
     {
         "name": "Animations_Generator",
         "link": "https://animista.net/",
-        "category": ["css generator animations keyframes shadows"]
+        "category": ["css, generator, animations, keyframes, shadows"]
     },
     {
         "name": "Animate_Keyframes",
         "link": "https://keyframes.app/animate/",
-        "category": ["css generator animations keyframes shadows"]
+        "category": ["css, generator, animations, keyframes, shadows"]
     },
     {
         "name": "Atom",
         "link": "https://atom.io/",
-        "category": ["software code editor"]
+        "category": ["software, code, editor"]
     },
     {
         "name": "Badges_for_GitHub",
         "link": "https://dev.to/envoy_/150-badges-for-github-pnk",
-        "category": ["icons github badges"]
+        "category": ["icons, github, badges"]
     },
     {
         "name": "Behance",
         "link": "https://www.behance.net/",
-        "category": ["moodboard inspiration images"]
+        "category": ["moodboard, inspiration, images"]
     },
     {
         "name": "Clip_Path_Maker",
