@@ -1,0 +1,482 @@
+[
+    {
+        "name": "Adobe_Fonts",
+        "link": "https://www.adobe.com/products/photoshop.html/",
+        "category": ["fonts adobe"]
+    },
+    {
+        "name": "Adobe_Photoshop",
+        "link": "https://fonts.adobe.com/",
+        "category": ["adobe editor software"]
+    },
+    {
+        "name": "Adobe_XD",
+        "link": "https://www.adobe.com/products/xd.html",
+        "category": ["software adobe editor"]
+    },
+    {
+        "name": "Affinity_Designer",
+        "link": "https://affinity.serif.com/en-us/designer/",
+        "category": ["software editor"]
+    },
+    {
+        "name": "All_Icons",
+        "link": "https://www.icofont.com/icons",
+        "category": ["icons"]
+    },
+    {
+        "name": "Animations_Generator",
+        "link": "https://animista.net/",
+        "category": ["css generator animations keyframes shadows"]
+    },
+    {
+        "name": "Animate_Keyframes",
+        "link": "https://keyframes.app/animate/",
+        "category": ["css generator animations keyframes shadows"]
+    },
+    {
+        "name": "Atom",
+        "link": "https://atom.io/",
+        "category": ["software code editor"]
+    },
+    {
+        "name": "Badges_for_GitHub",
+        "link": "https://dev.to/envoy_/150-badges-for-github-pnk",
+        "category": ["icons github badges"]
+    },
+    {
+        "name": "Behance",
+        "link": "https://www.behance.net/",
+        "category": ["moodboard inspiration images"]
+    },
+    {
+        "name": "Clip_Path_Maker",
+        "link": "https://bennettfeely.com/clippy/",
+        "category": ["css generator"]
+    },
+    {
+        "name": "Border_Image_Generator",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-image_generator",
+        "category": ["css generator border images"]
+    },
+    {
+        "name": "Blob_Maker",
+        "link": "https://www.blobmaker.app/",
+        "category": ["css generator svg"]
+    },
+    {
+        "name": "CSS_Gradient_Generator",
+        "link": "http://ourownthing.co.uk/gradpad.html",
+        "category": ["css generator gradients colors"]
+    },
+    {
+        "name": "CSS_Filter_Generator",
+        "link": "https://www.cssfilters.co/",
+        "category": ["css generator filter"]
+    },
+    {
+        "name": "CSS_Gradient_Generator_and_Maker",
+        "link": "https://cssgradient.io/",
+        "category": ["css generator gradients colors swatches"]
+    },
+    {
+        "name": "Design_Stripe",
+        "link": "https://designstripe.com/search/illustrations",
+        "category": ["illustrations"]
+    },
+    {
+        "name": "CSS_Pattern_Generator",
+        "link": "http://www.patternify.com/",
+        "category": ["css generator patterns"]
+    },
+    {
+        "name": "CleanPNG",
+        "link": "https://www.cleanpng.com/",
+        "category": ["images inspiration pictures photos"]
+    },
+    {
+        "name": "CodePen",
+        "link": "https://codepen.io/",
+        "category": ["html inspiration css"]
+    },
+    {
+        "name": "Color_Blender",
+        "link": "https://meyerweb.com/eric/tools/color-blend/#::1:hex",
+        "category": ["colors generator palettes"]
+    },
+    {
+        "name": "Color_Hunt",
+        "link": "https://colorhunt.co/",
+        "category": ["colors generator palettes"]
+    },
+    {
+        "name": "Color_Space",
+        "link": "https://mycolor.space/?hex=%23845EC2&sub=1",
+        "category": ["colors generator palettes gradients"]
+    },
+    {
+        "name": "Color_Thief",
+        "link": "https://lokeshdhakar.com/projects/color-thief/",
+        "category": ["colors generator palettes images"]
+    },
+    {
+        "name": "Color_Wheel",
+        "link": "https://color.adobe.com/create/color-wheel",
+        "category": ["colors generator palettes gradients"]
+    },
+    {
+        "name": "ColorZilla",
+        "link": "https://www.colorzilla.com/chrome/",
+        "category": ["colors extensions picker"]
+    },
+    {
+        "name": "CSS_Matic",
+        "link": "https://www.cssmatic.com/box-shadow",
+        "category": ["css generator shadows"]
+    },
+    {
+        "name": "Cubic_Bezier_Generator",
+        "link": "https://cubic-bezier.com/#.17,.67,.6,1.31",
+        "category": ["generator css animations"]
+    },
+    {
+        "name": "DEVICON",
+        "link": "https://devicon.dev/",
+        "category": ["icons github"]
+    },
+    {
+        "name": "Dribbble",
+        "link": "https://www.dribbble.com/",
+        "category": ["inspiration images design"]
+    },
+    {
+        "name": "EM_to_PX_Converter",
+        "link": "https://everythingfonts.com/font/tools/units/em-to-px",
+        "category": ["fonts css calculator"]
+    },
+    {
+        "name": "Endless_Icons",
+        "link": "https://endlessicons.com/",
+        "category": ["icons"]
+    },
+    {
+        "name": "Envato_Elements",
+        "link": "https://elements.envato.com/",
+        "category": ["inspiration images fonts photos design"]
+    },
+    {
+        "name": "Figma",
+        "link": "https://www.figma.com/",
+        "category": ["software figma editor"]
+    },
+    {
+        "name": "Flat_Icons",
+        "link": "https://www.flaticon.com/",
+        "category": ["icons"]
+    },
+    {
+        "name": "Fluid_Space_Calculator",
+        "link": "https://utopia.fyi/space/calculator",
+        "category": ["generator css calculator"]
+    },
+    {
+        "name": "Font_Awesome",
+        "link": "https://fontawesome.com/icons?d=gallery&p=4&m=free",
+        "category": ["icons"]
+    },
+    {
+        "name": "Font_Size_Calculator",
+        "link": "https://websemantics.uk/tools/responsive-font-calculator/",
+        "category": ["fonts css calculator"]
+    },
+    {
+        "name": "Font_Squirrel",
+        "link": "https://www.fontsquirrel.com/fonts/aileron",
+        "category": ["fonts inspiration"]
+    },
+    {
+        "name": "Fonts_In_Use",
+        "link": "https://fontsinuse.com/",
+        "category": ["fonts inspiration"]
+    },
+    {
+        "name": "Fonts_Ninja",
+        "link": "https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh",
+        "category": ["fonts extensions"]
+    },
+    {
+        "name": "Fonts_Typespiration",
+        "link": "https://typespiration.com/",
+        "category": ["fonts inspiration"]
+    },
+    {
+        "name": "Free_Figma_Templates",
+        "link": "https://www.uikitsnow.com/",
+        "category": ["inspiration figma design"]
+    },
+    {
+        "name": "Google_Fonts",
+        "link": "https://fonts.google.com/?sidebar.open=&selection.family=Bangers",
+        "category": ["fonts"]
+    },
+    {
+        "name": "Free_Figma_Templates",
+        "link": "https://www.uikitsnow.com/",
+        "category": ["inspiration figma design"]
+    },
+    {
+        "name": "Generator_Tools",
+        "link": "https://www.developmenttools.com/generator-tools/",
+        "category": ["generator"]
+    },
+    {
+        "name": "Google_Fonts_Pairs",
+        "link": "https://www.fontpair.co/",
+        "category": ["inspiration fonts"]
+    },
+    {
+        "name": "Grammar_Checker",
+        "link": "https://writer.com/grammar-checker/",
+        "category": ["text"]
+    },
+    {
+        "name": "GraphicBurger",
+        "link": "https://graphicburger.com/",
+        "category": ["mock-ups icons inspiration design"]
+    },
+    {
+        "name": "HTML_Symbols",
+        "link": "https://www.toptal.com/designers/htmlarrows/symbols/",
+        "category": ["html text css"]
+    },
+    {
+        "name": "Huemint",
+        "link": "https://huemint.com/",
+        "category": ["css colors inspiration gradients generators"]
+    },
+    {
+        "name": "Humaaans",
+        "link": "https://www.humaaans.com/",
+        "category": ["illustrations"]
+    },
+    {
+        "name": "IcoMoon",
+        "link": "https://icomoon.io/",
+        "category": ["icons"]
+    },
+    {
+        "name": "Icon_Finder",
+        "link": "https://www.iconfinder.com/",
+        "category": ["icons illustrations 3d"]
+    },
+    {
+        "name": "Icon_Scout",
+        "link": "https://iconscout.com/",
+        "category": ["icons illustrations animations 3d"]
+    },
+    {
+        "name": "Janvas_SVG_Editor",
+        "link": "https://www.janvas.com/create-draw-edit/en/svg-online-editor.html",
+        "category": ["svg editor"]
+    },
+    {
+        "name": "Illlustrations.co",
+        "link": "https://illlustrations.co/",
+        "category": ["illustrations"]
+    },
+    {
+        "name": "Icons8",
+        "link": "https://icons8.com/",
+        "category": ["illustrations icons images"]
+    },
+    {
+        "name": "IconsDB",
+        "link": "https://www.iconsdb.com/",
+        "category": ["icons"]
+    },
+    {
+        "name": "Isometric_Love",
+        "link": "https://isometriclove.com/",
+        "category": ["images 3d icons"]
+    },
+    {
+        "name": "LogoMoose",
+        "link": "https://www.logomoose.com/",
+        "category": ["images logos inspiration design"]
+    },
+    {
+        "name": "Open_Doodles",
+        "link": "https://www.opendoodles.com/",
+        "category": ["illustrations"]
+    },
+    {
+        "name": "Promo_Image_Resizer",
+        "link": "https://promo.com/tools/image-resizer/",
+        "category": ["images editor resizer optimizer"]
+    },
+    {
+        "name": "Land_Book",
+        "link": "https://land-book.com/",
+        "category": ["images inspiration design"]
+    },
+    {
+        "name": "Lapa_Ninja",
+        "link": "https://www.lapa.ninja/",
+        "category": ["webflow inspiration design"]
+    },
+    {
+        "name": "Linea_Icons",
+        "link": "https://linea.io/",
+        "category": ["icons"]
+    },
+    {
+        "name": "Live_Color_Picker",
+        "link": "https://chrome.google.com/webstore/detail/live-color-picker/ocfboephblnapfbccjigejhblhkpgflj",
+        "category": ["colors extensions picker"]
+    },
+    {
+        "name": "Lorem_Ipsum_Generator",
+        "link": "https://loremipsum.io/generator/",
+        "category": ["text generator"]
+    },
+    {
+        "name": "Material_Icons",
+        "link": "https://fonts.google.com/icons",
+        "category": ["icons css"]
+    },
+    {
+        "name": "Mockup_World",
+        "link": "https://www.mockupworld.co/all-mockups/",
+        "category": ["mock-ups inspiration design"]
+    },
+    {
+        "name": "Mockup_Tree",
+        "link": "https://mockuptree.com/free-mockups/",
+        "category": ["mock-ups inspiration design"]
+    },
+    {
+        "name": "Nimbus_Capture",
+        "link": "https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj?hl=en-US",
+        "category": ["images extensions"]
+    },
+    {
+        "name": "Optimizilla",
+        "link": "https://imagecompressor.com/",
+        "category": ["images compressor optimizer"]
+    },
+    {
+        "name": "Compressor",
+        "link": "https://compressor.io/",
+        "category": ["images compressor optimizer"]
+    },
+    {
+        "name": "Ouch",
+        "link": "https://icons8.com/illustrations",
+        "category": ["illustrations"]
+    },
+    {
+        "name": "PSD_Mockups",
+        "link": "https://originalmockups.com/mockups/free-mockups",
+        "category": ["mock-ups inspiration design"]
+    },
+    {
+        "name": "Pexels",
+        "link": "https://www.pexels.com/",
+        "category": ["images photos"]
+    },
+    {
+        "name": "Photoshop_Textures",
+        "link": "https://texturelabs.org/",
+        "category": ["images photos textures"]
+    },
+    {
+        "name": "Pinterest",
+        "link": "https://pinterest.com/",
+        "category": ["inspiration images design"]
+    },
+    {
+        "name": "Pixabay",
+        "link": "https://pixabay.com/",
+        "category": ["illustrations images photos inspiration"]
+    },
+    {
+        "name": "Resize_Pixel",
+        "link": "https://www.resizepixel.com/",
+        "category": ["images compressor resizer optimizer"]
+    },
+    {
+        "name": "Ruri_Shapes_Generator",
+        "link": "https://ruri.design/",
+        "category": ["images generator background"]
+    },
+    {
+        "name": "SVG_Crop",
+        "link": "https://svgcrop.com/",
+        "category": ["svg optimizer"]
+    },
+    {
+        "name": "SVG_Viever_and_Optimize",
+        "link": "https://www.svgviewer.dev/",
+        "category": ["svg optimizer"]
+    },
+    {
+        "name": "Sketch_App",
+        "link": "https://www.sketch.com/",
+        "category": ["software editor"]
+    },
+    {
+        "name": "Source_Code_Image_Generator",
+        "link": "https://carbon.now.sh/",
+        "category": ["images generator html css"]
+    },
+    {
+        "name": "Sublime_Text",
+        "link": "https://www.sublimetext.com/",
+        "category": ["software editor code"]
+    },
+    {
+        "name": "Testimonials_Generator",
+        "link": "https://testimonial-generator.com/index.php",
+        "category": ["text generator"]
+    },
+    {
+        "name": "Transparent_Textures",
+        "link": "https://www.transparenttextures.com/",
+        "category": ["images photos textures"]
+    },
+    {
+        "name": "Udemy",
+        "link": "https://www.udemy.com/",
+        "category": ["learning courses"]
+    },
+    {
+        "name": "Unblast_Mockups",
+        "link": "https://unblast.com/",
+        "category": ["mock-ups inspiration design icons fonts colors 3d"]
+    },
+    {
+        "name": "unDraw",
+        "link": "https://undraw.co/illustrations",
+        "category": ["illustrations"]
+    },
+    {
+        "name": "Unsplash",
+        "link": "https://unsplash.com/",
+        "category": ["images photos inspiration"]
+    },
+    {
+        "name": "VS_Code",
+        "link": "https://code.visualstudio.com/download",
+        "category": ["software editor code"]
+    },
+    {
+        "name": "What_Font_is",
+        "link": "https://www.whatfontis.com/",
+        "category": ["fonts"]
+    },
+    {
+        "name": "Webflow",
+        "link": "https://webflow.com/made-in-webflow",
+        "category": ["editor designer designs inspiration"]
+    }
+]
