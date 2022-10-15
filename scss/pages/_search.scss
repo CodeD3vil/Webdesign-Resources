@@ -7,11 +7,38 @@ body#search-page {
     background-color: colors.$color-search;
 }
 
+//SERACH RESULTS SECTION links
 .search {
     min-height: 61vh;
     @include mixins.flexCenter(column);
     justify-content: flex-start;
     width: 100%;
+    &__terms {
+        width: 80%;
+
+        &-text {
+            text-align: center;
+            color: colors.$text-color-medium-dark-grey;
+            font-size: 0.8rem;
+            margin-top: 2rem;
+
+            &--red {
+                color: colors.$search-term-red;
+            }
+
+            &--green {
+                color: colors.$search-term-green;
+            }
+
+            &--blue {
+                color: colors.$search-term-blue;
+            }
+
+            &--purple {
+                color: colors.$search-term-purple;
+            }
+        }
+    }
 
     &-bg {
         @include mixins.flexCenter(column);
@@ -43,8 +70,7 @@ body#search-page {
         &-element {
             @include mixins.flexCenter(row);
             position: relative;
-            padding-top: 3rem;
-            padding-bottom: 1rem;
+            margin-top: 0.3rem;
             width: 100%;
 
             &--icon {
@@ -53,12 +79,8 @@ body#search-page {
             }
         }
     }
-}
-
-//SERACH RESULTS SECTION links
-.search {
     &__list {
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
 
     &__results {
@@ -70,12 +92,17 @@ body#search-page {
         width: 100%;
         flex-direction: column;
         align-items: flex-start;
-        padding: 0.8rem 0;
+        padding: 0.8rem 0 0 0;
         border-bottom: 1px solid colors.$search-match-underline;
         margin-bottom: 1rem;
 
         &-title {
             color: colors.$search-result-title;
+            transition: all 0.3s;
+
+            &:hover {
+                color: colors.$search-result-title-hover;
+            }
         }
 
         &-link {
@@ -95,6 +122,11 @@ body#search-page {
             -moz-hyphens: auto;
             -webkit-hyphens: auto;
             hyphens: auto;
+            transition: all 0.2s;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
 
         &-description {

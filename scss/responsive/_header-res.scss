@@ -9,23 +9,24 @@
     }
 
     .header-primary {
+        width: 100vw;
         height: 80px;
         background-color: colors.$color-header;
     }
 
     //MOBILE MENU start
     .navigation {
+        width: 102vw;
         padding-top: 6rem;
         padding-left: 0;
         padding-right: 0;
         position: relative;
     }
     .header__nav {
-        width: 50vw;
         height: 11400px;
         z-index: 10;
         /* inset is a shorthand for top, right, bottom, left for positioning */
-        inset: 0 0 0 63%;
+        inset: 0 0 0 25%;
         position: fixed;
         flex-direction: column;
         align-items: flex-start;
@@ -41,10 +42,9 @@
 
         &--link {
             width: 100%;
-            padding: 0.6rem 0;
-            padding-right: 20%;
-            font-size: 0.9rem;
-            text-align: right;
+            margin-top: 0.5rem;
+            text-align: center;
+            font-size: 1.5rem;
 
             &:hover {
                 background-color: colors.$color-mobile-menu-hover;

@@ -20,6 +20,9 @@
     }
 
     .search {
+        &__terms-text {
+            font-size: 0.6rem;
+        }
         &__results {
             width: 100%;
         }
