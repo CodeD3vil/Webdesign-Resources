@@ -205,7 +205,7 @@ a {
 .card__title {
   height: 100%;
   color: #ffffff;
-  font-size: clamp(1.2rem, 4vw, 1.5rem);
+  font-size: clamp(1rem, 4vw, 1.3rem);
 }
 .card__subtitle {
   color: #3f4343;
@@ -252,8 +252,8 @@ a {
 .footer {
   width: 100%;
   position: relative;
-  height: 100px;
-  padding: 0 3rem 0rem 3rem;
+  min-height: 15vh;
+  padding: 1rem 3rem 2rem 3rem;
   background-color: #151b22;
   display: flex;
   justify-content: space-between;
@@ -593,7 +593,7 @@ body#search-page {
 }
 
 .search {
-  min-height: 51.2vh;
+  min-height: 61vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -627,14 +627,11 @@ body#search-page {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  align-items: center;
-  height: 150px;
   width: 100%;
   background-color: #151b22;
-  border-bottom: 1px solid rgba(230, 230, 230, 0.109);
 }
 .search__bar {
-  min-width: 50%;
+  min-width: 63%;
 }
 .search__bar-term {
   width: 100%;
@@ -658,13 +655,13 @@ body#search-page {
   align-items: center;
   flex-direction: row;
   position: relative;
+  margin-top: 0.3rem;
   width: 100%;
 }
 .search__bar-element--icon {
   position: absolute;
   left: 15px;
 }
-
 .search__list {
   margin-top: 3rem;
 }
@@ -681,10 +678,11 @@ body#search-page {
   margin-bottom: 1rem;
 }
 .search__result-title {
-
+  color: #f08c34;
+  transition: all 0.3s;
 }
 .search__result-title:hover {
-  color: #d19f8c;
+  color: #fcad67;
 }
 .search__result-link {
   margin-bottom: 0.2rem;
@@ -703,7 +701,19 @@ body#search-page {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
-
+  transition: all 0.2s;
+}
+.search__result-link:hover {
+  text-decoration: underline;
+}
+.search__result-description {
+  text-align: left;
+  color: #b8b4b4;
+  padding-bottom: 0.3rem;
+  transition: all 0.3s;
+}
+.search__result-description:hover {
+  color: #cecdcd;
 }
 
 .toTop {
@@ -879,7 +889,7 @@ body#search-page {
     transition: all 0.4s ease-out;
     /* by default the navigation is out of view hidden outside the page */
     transform: translateX(75%);
-    background-color: rgba(30, 39, 60, 0.9);
+    background-color: rgba(30, 39, 60, 0.648);
     backdrop-filter: blur(7px);
     display: block;
     opacity: 0;
@@ -1106,16 +1116,16 @@ body#search-page {
     flex-direction: column;
     justify-content: flex-start;
   }
-  .search__terms-text {
-    color: #5f6262;
-    font-size: 0.7rem;
-  }
   .search__bar {
-    width: 85%;
+    width: 76%;
     font-size: 0.4rem;
   }
   .search__bar-element {
-    padding-top: 0.5rem;
+    padding-top: 1rem;
+  }
+
+  .search__terms-text {
+    font-size: 0.6rem;
   }
   .search__results {
     width: 100%;
