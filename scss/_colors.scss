@@ -78,12 +78,10 @@ $search-placeholder-text: #c4c4c4;
 $search-inner-shadow: rgba(0, 0, 0, 0.1);
 
 /* SEARCH RESULTS colors*/
-$search-result-title: wheat;
+$search-result-title: rgb(240, 140, 52);
+$search-result-title-hover: rgb(252, 173, 103);
 $search-result-link: whitesmoke;
-$search-result-description: grey;
-$search-result-title-hover: rgb(209, 159, 140);
-$search-result-link-hover: rgb(181, 181, 181);
-$search-result-description-hover: rgb(137, 147, 154);
+
 $search-term-red: rgb(171, 70, 70);
 $search-term-green: rgb(68, 149, 48);
 $search-term-blue: rgb(51, 51, 164);
