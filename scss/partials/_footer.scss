@@ -4,8 +4,8 @@
 .footer {
     width: 100%;
     position: relative;
-    min-height: 15vh;
-    padding: 1rem 3rem 2rem 3rem;
+    height: 100px;
+    padding: 0 3rem 0rem 3rem;
     background-color: colors.$color-footer;
     @include mixins.flexSpaceBetween(row);
 

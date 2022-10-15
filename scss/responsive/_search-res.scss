@@ -9,20 +9,22 @@
         @include mixins.flexCenter(column);
         justify-content: flex-start;
 
+        &__terms {
+            &-text {
+                color: colors.$text-color-medium-dark-grey;
+                font-size: 0.7rem;
+            }
+        }
+
         &__bar {
-            width: 76%;
+            width: 85%;
             font-size: 0.4rem;
 
             &-element {
-                padding-top: 1rem;
+                padding-top: 0.5rem;
             }
         }
-    }
 
-    .search {
-        &__terms-text {
-            font-size: 0.6rem;
-        }
         &__results {
             width: 100%;
         }

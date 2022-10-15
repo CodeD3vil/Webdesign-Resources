@@ -9,7 +9,7 @@ body#search-page {
 
 //SERACH RESULTS SECTION links
 .search {
-    min-height: 61vh;
+    min-height: 51.2vh;
     @include mixins.flexCenter(column);
     justify-content: flex-start;
     width: 100%;
@@ -42,12 +42,16 @@ body#search-page {
 
     &-bg {
         @include mixins.flexCenter(column);
+        align-items: center;
+        height: 150px;
         width: 100%;
+
         background-color: colors.$color-search;
+        border-bottom: 1px solid colors.$search-match-underline;
     }
 
     &__bar {
-        min-width: 63%;
+        min-width: 50%;
 
         &-term {
             width: 100%;
@@ -70,7 +74,7 @@ body#search-page {
         &-element {
             @include mixins.flexCenter(row);
             position: relative;
-            margin-top: 0.3rem;
+
             width: 100%;
 
             &--icon {
@@ -79,6 +83,7 @@ body#search-page {
             }
         }
     }
+
     &__list {
         margin-top: 3rem;
     }
@@ -97,8 +102,9 @@ body#search-page {
         margin-bottom: 1rem;
 
         &-title {
-            color: colors.$search-result-title;
             transition: all 0.3s;
+            color: colors.$search-result-title;
+
 
             &:hover {
                 color: colors.$search-result-title-hover;
@@ -122,17 +128,14 @@ body#search-page {
             -moz-hyphens: auto;
             -webkit-hyphens: auto;
             hyphens: auto;
-            transition: all 0.2s;
 
-            &:hover {
-                text-decoration: underline;
             }
         }
 
         &-description {
             text-align: left;
             color: colors.$search-result-description;
-            padding-bottom: 0.3rem;
+
             transition: all 0.3s;
 
             &:hover {
