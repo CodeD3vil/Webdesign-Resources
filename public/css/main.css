@@ -709,6 +709,11 @@ body#search-page {
 .search__result-description {
   text-align: left;
   color: #b8b4b4;
+  padding-bottom: 0.3rem;
+  transition: all 0.3s;
+}
+.search__result-description:hover {
+  color: #cecdcd;
 }
 
 .toTop {

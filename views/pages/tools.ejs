@@ -32,21 +32,25 @@
                 <h2 class="resources__title">Software</h2>
                 <h3 class="resources__subtitle">
                     When it comes to software tools to design and build websites, we have many options to choose from.
-                    Code editors like <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name ===
-                    'Atom') { %>
-                    <a class="links-color-cyan" href="<%=urlLinks[i].link %>" target="blank">Atom</a>
-                    <% } %> <%} %> or <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name ===
-                    'Sublime_Text') { %>
-                    <a class="links-color-cyan" href="<%=urlLinks[i].link %>" target="blank">SublimeText</a>
-                    <% } %> <%} %> , <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name ===
-                    'Adobe_XD') { %>
-                    <a class="links-color-cyan" href="<%=urlLinks[i].link %>" target="blank">Adobe XD</a>
-                    <% } %> <%} %> , <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name ===
-                    'Sketch_App') { %>
-                    <a class="links-color-cyan" href="<%=urlLinks[i].link %>" target="blank">Sketch App</a>
-                    <% } %> <%} %> or <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].name ===
-                    'Affinity_Designer') { %>
-                    <a class="links-color-cyan" href="<%=urlLinks[i].link %>" target="blank">Affinity Designer</a>
+                    Code editors like <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].id ===
+                    'j4RDLBT') { %>
+                    <a class="links-color-cyan" href="<%=urlLinks[i].link %>" target="_blank"><%=urlLinks[i].name %></a>
+                    
+                    <% } %> <%} %> or <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].id ===
+                    'jokrxzC') { %>
+                    <a class="links-color-cyan" href="<%=urlLinks[i].link %>" target="_blank"><%=urlLinks[i].name %></a>
+                   
+                    <% } %> <%} %> , <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].id ===
+                    'EGl_fEs') { %>
+                    <a class="links-color-cyan" href="<%=urlLinks[i].link %>" target="_blank"><%=urlLinks[i].name %></a>
+                    
+                    <% } %> <%} %> , <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].id ===
+                    '1_RWn05') { %>
+                    <a class="links-color-cyan" href="<%=urlLinks[i].link %>" target="_blank"><%=urlLinks[i].name %></a>
+                   
+                    <% } %> <%} %> or <% for (let i = 0; i < urlLinks.length; i ++) { %> <% if (urlLinks[i].id ===
+                    'Leh_JJ0') { %>
+                    <a class="links-color-cyan" href="<%=urlLinks[i].link %>" target="_blank"><%=urlLinks[i].name %></a>
                     <% } %> <%} %> for UI, UX design and photo editing. Here are my favorites.
                 </h3>
                 <div class="resources__cards cards grid"><%- include('../partials/cards/tools/software.ejs')%></div>

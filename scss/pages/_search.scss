@@ -132,6 +132,12 @@ body#search-page {
         &-description {
             text-align: left;
             color: colors.$search-result-description;
+            padding-bottom: 0.3rem;
+            transition: all 0.3s;
+
+            &:hover {
+                color: colors.$search-result-description-hover;
+            }
         }
     }
 }
