@@ -14,13 +14,14 @@
             font-size: 0.4rem;
 
             &-element {
-                padding-top: 1rem;
+                padding-top: 0;
             }
         }
     }
 
     .search {
         &__terms-text {
+            margin-top: 1rem;
             font-size: 0.6rem;
         }
         &__results {
@@ -67,6 +68,12 @@
 
     .match {
         font-size: 0.8rem;
+    }
+
+    .search-info {
+        &--text {
+            font-size: 0.6rem;
+        }
     }
 
     .toTop {

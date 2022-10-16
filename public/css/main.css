@@ -716,6 +716,12 @@ body#search-page {
   color: #cecdcd;
 }
 
+.search-info--text {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #c4c4c4;
+}
+
 .toTop {
   display: none;
   margin-top: 2rem;
@@ -1121,10 +1127,11 @@ body#search-page {
     font-size: 0.4rem;
   }
   .search__bar-element {
-    padding-top: 1rem;
+    padding-top: 0;
   }
 
   .search__terms-text {
+    margin-top: 1rem;
     font-size: 0.6rem;
   }
   .search__results {
@@ -1167,6 +1174,10 @@ body#search-page {
 
   .match {
     font-size: 0.8rem;
+  }
+
+  .search-info--text {
+    font-size: 0.6rem;
   }
 
   .toTop--link {
