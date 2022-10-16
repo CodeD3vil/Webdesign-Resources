@@ -1,12 +1,16 @@
 const list = document.getElementById("search__list");
+const searchBar = document.getElementById("search-bar");
 
 document.addEventListener("DOMContentLoaded", function () {
     list.style.display = "none";
 });
 
-const numberOfSearchResults = () => {
-    let searchResults = document.querySelectorAll(".visible");
-    console.log(searchResults.length);
+const showSearchResultsInfo = (input) => {
+    let numberOfSearchResults = document.querySelectorAll(".visible").length;
+    let searchResultsText = `<p class="search-info--text">There are <b>${numberOfSearchResults}</b> search results for "<b>${input}</b>"</p>`;
+    const searchResultsInfo = document.getElementById("search-info");
+    searchResultsInfo.innerHTML = "";
+    searchResultsInfo.innerHTML = searchResultsText;
 };
 
 const searchLinks = () => {
@@ -30,5 +34,5 @@ const searchLinks = () => {
         }
     }
 
-    numberOfSearchResults();
+    showSearchResultsInfo(input);
 };
