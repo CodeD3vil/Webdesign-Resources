@@ -1,5 +1,5 @@
 const list = document.getElementById("search__list");
-const link = document.getElementsByClassName("match-link");
+const searchResults = document.getElementsByClassName("match-link");
 
 document.addEventListener("DOMContentLoaded", function () {
     list.style.display = "none";
@@ -10,7 +10,7 @@ const searchLinks = () => {
     let match = document.getElementsByClassName("search__result");
 
     for (i = 0; i < match.length; i++) {
-        let matches = `${match[i].getAttribute("data-category").split(",").join(" ")} ${match[i]
+        let matches = `${match[i].getAttribute("data-search").split(",").join(" ")} ${match[i]
             .getAttribute("data-name")
             .toLowerCase()}`;
         match[i].setAttribute("data-search", matches);
