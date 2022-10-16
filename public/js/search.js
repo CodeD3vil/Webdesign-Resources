@@ -9,8 +9,12 @@ const showSearchResultsInfo = (input) => {
     let numberOfSearchResults = document.querySelectorAll(".visible").length;
     let searchResultsText = `<p class="search-info--text">There are <b>${numberOfSearchResults}</b> search results for "<b>${input}</b>"</p>`;
     const searchResultsInfo = document.getElementById("search-info");
-    searchResultsInfo.innerHTML = "";
-    searchResultsInfo.innerHTML = searchResultsText;
+    if (input === "") {
+        searchResultsInfo.innerHTML = "";
+    } else {
+        searchResultsInfo.innerHTML = "";
+        searchResultsInfo.innerHTML = searchResultsText;
+    }
 };
 
 const searchLinks = () => {
