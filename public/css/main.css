@@ -419,6 +419,17 @@ a {
   transform-origin: left;
 }
 
+.active-page::before {
+  position: absolute;
+  content: "";
+  top: 1.7em;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #ffffff;
+  z-index: 100;
+}
+
 .header-search {
   margin-right: -0.3rem;
   background-color: transparent;
