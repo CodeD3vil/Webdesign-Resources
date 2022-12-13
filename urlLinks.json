@@ -91,6 +91,13 @@
         "description": "Blobmaker is a free generative design tool made with 💕 by z creative labs, to help you quickly create random, unique, and organic-looking SVG shapes."
     },
     {
+        "name": "Coolors - Color Palettes Generator",
+        "link": "https://coolors.co/",
+        "category": ["css", "generator", "gradients", "colors", "palettes"],
+        "id": "-Fwm8GZ",
+        "description": "The superfast color palettes generator"
+    },
+    {
         "name": "CSS Gradient Generator",
         "link": "http://ourownthing.co.uk/gradpad.html",
         "category": ["css", "generator", "gradients", "colors"],
@@ -299,6 +306,13 @@
         "category": ["inspiration", "figma", "design"],
         "id": "nW5uMkT",
         "description": "Free Figma Templates, UI Kits & Resources"
+    },
+    {
+        "name": "FreePik",
+        "link": "https://www.freepik.com/",
+        "category": ["icons", "illustrations", "images", "design", "mock-ups", "pictures"],
+        "id": "nW6uMkT",
+        "description": "Find and download the best high-quality photos, designs, and mockups"
     },
     {
         "name": "Google Fonts",
@@ -661,8 +675,15 @@
     {
         "name": "Webflow",
         "link": "https://webflow.com/made-in-webflow",
-        "category": ["editor", "designer", "designs", "inspiration"],
+        "category": ["template", "editor", "designer", "designs", "inspiration"],
         "id": "vR_j_Gq",
         "description": "Discover inspiring websites built by the Webflow community. Browse, clone, and customize the latest websites #MadeinWebflow."
+    },
+    {
+        "name": "Wix Website Templates",
+        "link": "https://www.wix.com/website/templates",
+        "category": ["template", "designs", "inspiration"],
+        "id": "1R2j_Gq",
+        "description": "Large selection of templates made in Wix for inspiration"
     }
 ]
