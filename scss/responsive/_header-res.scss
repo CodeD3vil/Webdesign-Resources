@@ -108,4 +108,10 @@
             border-radius: 0px;
         }
     }
+
+    .active-page {
+        &::before {
+            display: none;
+        }
+    }
 }

@@ -4,7 +4,7 @@
 
 //FORMS WELCOME SECTIOM
 .resources__welcome {
-    @include mixins.welcomeSection;
+
     @include mixins.flexCenter(column);
 
     &-left {

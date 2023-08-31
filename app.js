@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const urlLinks = require("./urlLinks.json");
+let urlLinks = require("./urlLinks.json");
 const dotenv = require("dotenv");
 dotenv.config({ path: "./config.env" });
 const app = express();
@@ -41,5 +41,6 @@ app.get("/tools", (request, response) => {
 });
 
 app.get("/search", (request, response) => {
+    urlLinks = urlLinks.slice().sort((a, b) => (a.name > b.name ? 1 : b.name > a.name ? -1 : 0));
     response.render(`${path.join(__dirname, "./views/pages/search")}`, { urlLinks, title: "search" });
 });

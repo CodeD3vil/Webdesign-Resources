@@ -685,5 +685,48 @@
         "category": ["template", "designs", "inspiration"],
         "id": "1R2j_Gq",
         "description": "Large selection of templates made in Wix for inspiration"
+    },
+    {
+        "name": "Randoma11y",
+        "link": "https://randoma11y.com/?color=%2300ffff",
+        "category": ["generator", "colors", "css"],
+        "id": "1R44_Gq",
+        "description": "The parameters comprise sequences which are theoretically infinite but limits are, of course, set to them in practice. There is an upward limit to size and certainly a downward one... Within these sequences there are reasonable bounds; extremes set by technical and functional experience"
+    }
+    ,
+    {
+        "name": "CSS Pattern",
+        "link": "https://css-pattern.com/",
+        "category": ["generator", "patterns", "css"],
+        "id": "kk44_Gq",
+        "description": "CSS background patterns"
+    },
+    {
+        "name": "Icones",
+        "link": "https://icones.js.org/",
+        "category": ["icons", "svg"],
+        "id": "kk49iGq",
+        "description": "All the icons you might ever need"
+    },
+    {
+        "name": "Open Color",
+        "link": "https://yeun.github.io/open-color/",
+        "category": ["colors", "palettes"],
+        "id": "k9mmGq",
+        "description": "Open color is an open-source color scheme Optimized for UI like font, background, border, etc."
+    },
+    {
+        "name": "Tint and Shade Generator",
+        "link": "https://maketintsandshades.com/",
+        "category": ["colors", "palettes", "generator"],
+        "id": "c33mGq",
+        "description": "The purpose of this tool is to accurately produce tints (pure white added) and shades (pure black added) of a given hex color in 10% increments."
+    },
+    {
+        "name": "Random User Generator",
+        "link": "https://randomuser.me/",
+        "category": ["json",  "generator"],
+        "id": "c3nn88q",
+        "description": "A free, open-source API for generating random user data. Like Lorem Ipsum, but for people."
     }
 ]

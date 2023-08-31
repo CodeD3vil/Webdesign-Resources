@@ -5,7 +5,6 @@
 //WELCOME SECTION
 
 .home__welcome {
-    @include mixins.welcomeSection;
     @include mixins.flexCenter(column);
 
     &-left {

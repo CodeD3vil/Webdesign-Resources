@@ -92,3 +92,18 @@
         @include mixins.buttonHoverBlue;
     }
 }
+
+.mysite-button {
+    max-width: max-content;
+    padding: 0.7rem 1.5rem;
+    background-color: colors.$color-light-blue;
+    color: colors.$text-color-white;
+    font-weight: 400;
+
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: colors.$text-color-white;
+        color: colors.$text-color-dark-grey;
+    }
+}

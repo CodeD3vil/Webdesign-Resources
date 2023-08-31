@@ -4,7 +4,6 @@
 
 //HR WELCOME SECTIOM
 .tools__welcome {
-    @include mixins.welcomeSection;
     @include mixins.flexCenter(column);
 
     &-left {
